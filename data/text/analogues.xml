@@ -1,0 +1,48 @@
+  <div>
+            <head>Parallel passages</head>
+            <cit xml:id="Quiete"> 
+            	<bibl>
+                    <author ref="#G.L.">Giacomo Leopardi</author>
+                    <title ref="#Canti">C: 1829 </title>
+                    <citedRange corresp="#Canti">La Quiete dopo la tempesta, vv. 22-24</citedRange>
+            	    
+            	    <ref>http://wikileopardi.altervista.org/wiki_leopardi/index.php?title=N35c_XXIV._La_quiete_dopo_la_tempesta_p._115</ref>
+                </bibl>
+                <quote><l>E, dalla via corrente, odi lontano/</l><lb/>
+                    <l>Tintinnio di sonagli; il carro stride/</l><lb/>
+                    <l>Del passegger che il suo cammin ripiglia.</l><lb/></quote>
+            </cit>
+            <cit xml:id="Ottonieri">  
+                <bibl> 
+                    <author ref="#G.L">Giacomo Leopardi</author> 
+                    <title ref="#Operette">O. M.: 1824</title> 
+                    <citedRange corresp="#Operette">Ottonieri, VII, p. 146</citedRange> 
+                    
+                </bibl> 
+                <quote>Da giovane, avendo composto alcuni versi, e adoperatovi certe voci antiche; dicendogli una signora attempata, alla quale, richiesto da essa, li recitava, non li sapere intendere, perché quelle voci al tempo suo non correvano; rispose: anzi mi credeva che corressero; perché sono molto antiche.</quote> 
+            </cit>
+         
+               
+                <cit xml:id="ottoagosto1817">  
+                    <bibl> 
+                        <author ref="#G.L.">Giacomo Leopardi</author> 
+                        <title ref="#Epistolario">Ep: 8 agosto 1817</title> 
+                        <citedRange corresp="#Epistolario">Lettera a Giordani, 8 agosto 1817, p. x</citedRange> 
+                        <date when="1817-08-08">8 agosto 1817</date>
+                        <ref> http://ww2.bibliotecaitaliana.it/xtf/view?docId=bibit000098/bibit000098.xml </ref>
+                    </bibl> 
+                    <quote>citazione</quote> 
+                </cit>
+          
+             
+                <cit xml:id="ventunonovembre1817">  
+                    <bibl> 
+                        <author ref="#G.L">Giacomo Leopardi</author> 
+                        <title ref="#Epistolario">Ep: 21 novembre 1817</title> 
+                        <citedRange corresp="#Epistolario">Lettera a Giordani, 21 novembre 1817, p. x</citedRange> 
+                        <date when="1817-09-21">21 novembre 1817</date>
+                        <ref>http://ww2.bibliotecaitaliana.it/xtf/view?docId=bibit000098/bibit000098.xml</ref>
+                    </bibl> 
+                    <quote>citazione</quote> 
+                </cit>
+        </div>

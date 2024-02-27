@@ -1,0 +1,86 @@
+/* ************************* */
+
+/* EVT 2.0 CUSTOM STYLESHEET */
+
+/* ***************************************************************** */
+
+/*                                                                   */
+
+/* Add here your CSS to customize the style of the elements          */
+
+/* If you'll not see any changes, try adding !important to the rule  */
+
+/*                                                                   */
+
+/* For generic TEI elements, use the tagName as class                */
+
+/* e.g. <del/> => .del{ # your style goes here # }                   */
+
+/*                                                                   */
+
+/* ***************************************************************** */
+/* .hi {display:block !important;}*/
+.hi {
+    text-align: center !important;
+}
+.p .hi {
+    display: grid !important;
+}
+.p {
+    text-align: justify !important;
+}
+div#mainContentToTranform {
+    text-align: justify;
+}
+
+.criticalEdition .orig {display: none !important;}
+.diplomaticEdition .corr {display: none !important;}
+
+
+/* creazione dello stile per le tabelle*/
+.table {
+    display: table !important;
+    width: 100% !important;
+}
+.row {
+    display: table-row !important;
+    table-layout: fixed !important;
+    max-width: 100% !important;
+}
+.cell {
+    max-width: 50px !important;
+    display: table-cell !important;
+}
+.cell:nth-child(4) {
+    max-width: 100px !important;
+}
+/* fine creazione dello stile per le tabelle*/
+
+.diplomaticEdition .sic, .diplomaticEdition .orig {color:inherit !important; text-decoration:none !important}
+.diplomaticEdition .choice .corr {display:none !important}
+.diplomaticEdition .choice .sic {text-decoration:none !important}
+
+
+.term {
+	background-color: coral;
+}
+
+.figDesc {
+	display: block;
+	border-left: 5px solid #b30000;
+	background-color: #ffe6e6;
+	padding: 5px 5px 5px 8px;
+	margin-bottom: 3%;
+	text-align: justify;
+	font-size: 95%;
+	font-style: italic;
+}
+
+span.analogue span.analogue__text span.quote {
+	font-style: italic;
+}
+
+span.quote sup.iconbis-evt_quote-left,
+span.quote sup.iconbis-evt_quote-right {
+	display: inline-block;
+}
