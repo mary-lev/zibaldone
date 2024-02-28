@@ -1,4 +1,4 @@
-Zibaldone "Pensieri" Digital Edition
+Zibaldone di Pensieri Digital Edition
 ===============
 
 This project is a 48-hour Digital Edition endeavor focused on reconstructing a [previous edition of Zibaldone's "Pensieri"](https://github.com/Alessia438/Zibaldone_di_pensieri.github.io/) with [EVT framework](http://evt.labcd.unipi.it/). It involved addressing various issues, including ensuring that missing sources and images were properly linked. Additionally, a foundation for an English version of this work was established, including the insertion and markup of pages 9 to 13.
