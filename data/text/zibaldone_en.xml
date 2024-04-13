@@ -22,12 +22,15 @@
                     <name xml:id="L.S.">Lorenzo Sabatino</name>
                     <name xml:id="M.S.">Marco Seghizzi</name>
                     <name xml:id="A.T.">Alessandra Terenzi</name>
+                    <name xml:id="MLam.">Marco Lamorte</name>
+                    <name xml:id="ML">Maria Levchenko</name>
+                    <name xml:id="AH">Atousa Heidarnia</name>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
                 <publisher>ZdP Project;</publisher>
                 <pubPlace>Bologna</pubPlace>
-                <date>2020</date>
+                <date>2024</date>
                 <availability>
                     <p> Questa risorsa digitale è liberamente accessibile per uso personale o
                         scientifico. Ogni uso commerciale è vietato </p>
@@ -1590,7 +1593,7 @@
             </text>
             <text type="13">
                 <body>
-                    <pb xml:id="p_13" n="13"/> <lb n="13"/>
+                    <pb xml:id="p_13" n="13"/>
                     <p xml:id="p13_1" n="13.1">
                         I don’t think that much heed should be paid to those who believe that
                         certain sublime passages in the Bible surpass every other sublime passage by
@@ -2139,65 +2142,48 @@
             </text>
             <text type="20">
                 <body>
-                    <pb xml:id="p_20" n="20"/><p>ma, se quand’uno ha concepito, non ha
-                fatto appena metà del cammino, se mille e centomila che provando affetti e sentendo
-                vivamente, hanno scritto, non sono riusciti a muovere negli altri gli stessi
-                affetti, e non si leggono da nessuno, se infiniti esempi e ragioni provano quanta
-                sia la <seg source="Parini_Gloria">forza dello stile</seg>, e come una stessa
-                immagine esposta da un poeta di vaglia faccia grand’effetto, e da un inferiore
-                nessuno, se <persName ref="#Virgilio">Virgilio</persName> senz’arte non sarebbe
-                stato <persName ref="#Virgilio">Virgilio</persName>, se in poesia <del>bei</del>
-                <add>un bel</add> corpo con vesti di cencio, dico, bei sensi senza bello
-                    stile<del>,</del>
-                <add><del>l’</del>ordine scelta</add> ec. non si soffrono e non si leggono e sono
-                condannati <del>d</del> non mica dai pregiudizi ma dal tempo giudice incorrotto e
-                inappellabile, se colla proprietà eleganza nobiltà ec. ec. ec. delle parole e della
-                lingua e delle <hi rend="underline">idee</hi>, colla scelta coll’ordine colla
-                collocazione ec. ec. infinite necessarissime doti si procacciano alla poesia; c’è
-                bisogno dell’arte, e di grandissimo studio dell’arte, in questo nostro tempo
-                massimamente, per le ragioni che più volte in questi pensieri ho scritto. E noi
-                vediamo che i grandi scrittori quelli che tutto il mondo venera, quelli così
-                infinitamente superiori ai pregiudizi, quelli finalmente i quali se non sono
-                veramente ed eternamente grandi, non c’è più cosa grande nè speranza di diventar
-                grande, noi vediamo che <persName ref="#Cicerone">Cicerone</persName> (e l’eloquenza
-                è cosa molto simile alla poesia) studiò profondissimamente l’arte sua e la sua
-                lingua e la gramatica e gli esemplari greci quanto mai si può pensare, ec.
-                    <del>ec.</del> e con tutto questo studio non<del>è già diventato</del>
-                <add>diventò</add> già un uomo da nulla nè un pedante nè un imitatore e che <del>so
-                    io</del> so io, ma diventò un <persName ref="#Cicerone">Cicerone</persName>: e
-                se <persName ref="#Cicerone">Cicerone</persName>
-                <add>come <del>autore</del> scrittore e oratore</add>, o signor <persName
-                    ref="#Breme">Breme</persName>, non vi quadra, come nè anche <persName
-                    ref="#Pindaro">Pindaro</persName> nè <persName ref="#Orazio">Orazio</persName>,
-                vi do subito la buona notte, e mi dispiace di non averlo saputo prima.
-                <handShift/>(E già di sopra s’è osservato che il primitivo bisogna impararlo dagli
-                antichi.) <handShift/> Non si ricorda il <persName ref="#Breme">Breme</persName> di
-                quella osservazione filosofica che è pur vecchia, dico, che i mezzi più semplici e
-                veri e sicuri sono gli ultimi che gli uomini trovano, così nelle arti e nei mestieri
-                come nelle cose usuali della vita, e così in tutto. E così chi sente e vuol
-                esprimere i moti del suo cuore ec. l’ultima cosa a cui arriva è la semplicità, e la
-                naturalezza, e la prima cosa è l’artifizio e l’affettazione, e chi non ha studiato e
-                non ha letto, e insomma come costoro dicono è immune dai pregiudizi dell’arte, è
-                innocente ec. non iscrive mica con semplicità, ma tutto all’opposto: e lo vediamo
-                nei fanciulli che per l<del>a</del><add>e</add> prime volte si mettono a comporre:
-                non iscrivono mica con semplicità e naturalezza, che se questo fosse, i migliori
-                scritti sarebbero quelli dei fanciulli: ma per contrario non ci si vede altro che
-                esagerazioni e affettazioni e ricercatezze benchè grossolane, e quella semplicità
-                che v’è, non è semplicità ma fanciullaggine: così dite di certe canzoni volgari ec.
-                ec. che per un certo verso son semplici, ma mettete un poco quella semplicità con
-                quella di <persName ref="#Anacreonte">Anacreonte</persName> che pare il non plus
-                ultra, e vedete <del>che</del> se vi pare che si possa pur chiamare semplicità. Onde
-                il fine dell’arte che costoro riprovano, non è mica l’arte, ma la natura, e
-                    <add>i</add>l<del>’eccesso</del>
-                <add>sommo</add> dell’arte è la naturalezza<del>,</del> e il nasconder l’arte, che i
-                principianti, o gl’ignoranti non sanno nascondere, benchè n’hanno pochissima, ma
-                quella pochissima trasparisce, e tanto fa più stomaco quanto è più rozza: e i nove
-                anni d’<persName ref="#Orazio">Orazio</persName> dei quali il <persName ref="#Breme"
-                    >Breme</persName> si fa beffe, non sono mica per accrescer gli artifizi del
-                componimento, ma per diminuirli, o meglio, per celarli accrescendoli, e insomma per
-                avvicinarsi sempre più alla natura, che è il fine di tutti quegli studi e di quelle
-                emendazioni ec. di cui il <persName ref="#Breme">Breme</persName> si burla, di cui
-                si burlano i romantici, contraddicendo a se stessi; che mentre</p>
+                    <pb xml:id="p_20" n="20"/><p>
+                        if, when you have had an idea, you have completed barely half the
+journey, if thousands and hundreds of thousands of people who have experienced and felt deeply some emotion have written and not succeeded in moving
+others and their writings are read by no one, if endless examples and reasons
+prove how great is <seg source="Parini_Gloria">the power of style</seg>, and how one and the same image used
+by a skillful poet has great effect and by an inferior poet none, if <persName ref="#Virgilio">Virgil</persName> without art would not have been <persName ref="#Virgilio">Virgil</persName>, if in poetry a fi ne body clothed in rags, by
+which I mean fine meanings without fine style order choice, etc., is insufferable,
+unreadable, and condemned, not by prejudice but by time, that incorruptible
+and implacable judge, if with the appropriateness, elegance, nobility, etc. etc.
+ etc., of words, of language, and of <hi rend="underline">ideas</hi>, with choice, with order, with arrangement, etc. etc., an infinity of absolutely essential virtues is gained by poetry,
+then art, and the most thorough study of art, is necessary, especially today, for
+the reasons that I have described several times in these thoughts. And we see
+that the great writers, those whom the whole world reveres, those so infinitely
+above biased judgment, those who in the end if they are not truly and eternally
+great then there is no longer anything great nor is there hope of greatness, we
+see that <persName ref="#Cicerone">Cicero</persName> (and eloquence is very similar to poetry) studied his art and his
+language and grammar and the Greek examples more thoroughly than can
+ever be imagined, etc., and with this study became not a man of no consequence, or a pedant, or an imitator, or what ever else but a <persName ref="#Cicerone">Cicero</persName>, and if, dear
+Signor <persName
+ref="#Breme">Breme</persName>, <persName ref="#Cicerone">Cicero</persName> as a writer and orator does not appeal to you, nor does
+<persName
+                    ref="#Pindaro">Pindar</persName>, or <persName ref="#Orazio">Horace</persName>, then I will bid you a swift good night, and I am sorry for
+not having realized it earlier. (And it has already been observed above that the
+primitive must be learned from the ancients.) </p>
+                <p xml:id="p20_1" n="20.1">
+                <persName ref="#Breme">Breme</persName> Breme has forgotten that philosophical observation, old though it is, that <lb/>the simplest, truest, and surest means are always the last that men discover, <lb/>and so it is in the arts and the professions, as in the ordinary things of life, and <lb/>in everything. And so the last thing achieved by someone who feels and wants <lb/> to express the emotions of his heart, etc., is simplicity and naturalness, and the <lb/>first thing is artifice and affectation, and someone who has not studied and has <lb/>not read and is, as these people say, immune to the prejudices of art, and in<lb/>nocent, etc., certainly does not write with simplicity, but quite the opposite. <lb/>We see it in young children when they begin to compose: they do not write
+            with simplicity and naturalness at all, for, if that were the case, the best writ<lb/>ings
+            would be those of children, whereas, on the contrary, one sees only exag<lb/>gerations
+            and affectations and refi nements, albeit clumsy ones, and the simplicity
+            that is there is not simplicity but childishness. You could say the same thing
+            about certain popular songs, etc. etc., which, in a certain sense, are simple, but
+            put a little of that simplicity alongside <persName ref="#Anacreon">Anacreon</persName>’s, which seems unsurpass<lb/>able,
+            and see whether you think it can still be called simplicity. Hence the aim
+            of art, which these people criticize, is not art at all but nature, and the height of
+            art is naturalness and the concealment of art, which novices and the ignorant
+            are unable to conceal, even though they have very little of it, but that very little
+            shines through, and the cruder it is, the more nauseating. And <persName ref="Orazio">Horace</persName>’s nine
+            years,1 which Breme ridicules, were certainly not spent increasing the artifice
+            of his writing, but in reducing it, or, rather, in increasing it in order to conceal
+            it, and in other words to come ever closer to nature, which is the aim of all
+            those studies and those emendations, etc., which Breme mocks, which the
+            Romantics mock, contradicting themselves, because, while</p>
                 </body>
                 <back>
                     <div>
@@ -2238,78 +2224,74 @@
             </text>
             <text type="21">
                 <body>
-                    <pb xml:id="p_21" n="21"/><p>bestemmiano l’arte e predicano la natura, non s’accorgono che la minor
-                arte è minor natura.</p>
-            <p xml:id="p21_1" n="21.1"> Non solamente bisogna che il poeta imiti e dipinga a
-                perfezione la natura, ma anche che la imiti e dipinga con
-                    naturalezza<del>.</del><add>, anzi non imita la natura chi non la imita con
-                    naturalezza.</add> Però <persName ref="#Ovidio">Ovidio</persName> che senza
-                naturalezza la dipinge, cioè va tanto dietro <del>dietro</del> a quegli oggetti, che
-                finalmente ce li presenta, e ce li fa anche vedere e toccare e sentire, ma dopo
-                infinito stento suo, (così che a lui bisogna una pagina per farci veder quello che
-                    <persName ref="#Dante">Dante</persName> ci fa vedere in una terzina) e con una
-                più tosto pertinacia ch’efficacia; presto sazia, e <del>poi</del>
-                <add>inoltre</add> non è molto piacevole, perchè non sa nasconder l’arte, e con quel
-                tanto aggirarsi <add>intorno</add> agli oggetti (non solo per una pericolosa
-                intemperanza e incontentabilità, ma anche perchè egli senza molti tratti non ci sa
-                subito <del>fi&lt;gurar&gt;</del>
-                <del>dipinger</del>
-                <add>disegnar</add> la figura, e se non fosse lungo non sarebbe evidente) fa
-                manifesta la diligenza, e la diligenza nei poeti è contraria alla naturalezza.
-                Quello che nei poeti dee parer di vedere, oltre gli oggetti imitati,
-                    <del>dev’esser</del>
-                <add>è</add> una bella negligenza, e questa è quella che vediamo negli antichi,
-                maestri di questa necessarissima e sostanziale arte, questa è quella che vediamo
-                    nell’<persName ref="#Ariosto">Ariosto</persName>, <persName ref="#Petrarca"
-                    >Petrarca</persName> ec. questa è quella che pur troppo manca anche ai migliori
-                e classici tra i moderni, questa è quella che col sentimentale e col sistema del
-                    <persName ref="#Breme">Breme</persName>, e nelle poesie <add>moderne</add> de’
-                francesi, non si ottiene, e poi non si ottiene; chè questo stesso sentimentale
-                    <del>abbisogna di una</del>
-                <del>ma</del> scopre una certa diligenza ec. scopre insomma il poeta che parla
-                ec.</p>
-            <p xml:id="p21_2" n="21.2"> In <persName ref="#Ovidio">Ovidio</persName> si vede in
-                somma che vuol dipingere, e far quello che colle parole è così difficile, mostrar la
-                figura ec. e si vede che ci si mette; in <persName ref="#Dante">Dante</persName>
-                    n<del>è</del><add>ò</add>: pare che voglia raccontare e far quello che colle
-                parole è facile <del>e usar</del> ed è l’uso ordinario delle parole, e dipinge
-                squisitamente, e tuttavia non si vede che ci si metta, non indica questa
-                circostanziola e quell’altra, e <hi rend="underline">alzava la mano e la stringeva e
-                    si voltava un tantino</hi> e che so io, (come fanno i romantici descrittori, e
-                in genere questi poeti descrittivi francesi o inglesi, così anche prose ec.
-                    <del>cos&lt;ì&gt;</del> tanto in voga ultimamente) insomma in lui c’è la
-                negligenza, in <persName ref="#Ovidio">Ovidio</persName> no. </p>
-            <p xml:id="p21_3" n="21.3" hand="#penna_?"><seg source="#Quiete2">
-                    <l>Sì come dopo la procella oscura<lb/> Canticchiando gli augelli escon del
-                        loco<lb/> Dove cacciogli il vento (nembo) e la paura;<lb/></l>
-                    <l>E il villanel che presso al paterno foco<lb/> Sta sospirando il sol, si
-                        riconforta (si rasserena)<lb/>
-                        <del hand="#penna_?">Udendo</del> Sentendo il dolce canto e il dolce
-                        gioco</l>
-                </seg>
-            </p>
-            <p xml:id="p21_4" n="21.4" hand="#penna_?"> Grandissima parte dell’opere utili procurano
-                il piacere mediatamente, cioè mostrando come ce lo possiamo procurare: la poesia
-                immediatamente, <del hand="#penna_?">somministrando<add hand="#penna_?"
-                    >ce</add>lo</del> cioè somministrandocelo. </p>
-            <p xml:id="p21_5" n="21.5" hand="#penna_?">
-                <seg source="#Dialogo_Murco_Filosofo">Cercava <persName
-                            ref="#Longino">Longino</persName> (nel fine <del hand="#penna_?">del
-                            Sublime</del> del trattato del Sublime) perchè al suo tempo ci fosse
-                        tanta scarsezza di anime grandi</seg> e portava per ragione parte la fine
-                    delle repubbliche e della libertà, parte <add hand="#penna_?">l’avarizia</add>
-                    la lussuria e l’ignavia. <del hand="#penna_?">Ma</del>
-                    <add hand="#penna_?">Ora</add> queste non sono madri ma sorelle di quell’effetto
-                    di cui parliamo. E <del hand="#penna_?">la</del> queste e quelle derivano dai
-                    progressi della ragione e della civiltà, e dalla mancanza <del hand="#penna_?"
-                        >delle illu&lt;sioni&gt;</del>
-                    <del hand="#penna_?">o indebolimento</del> o indebolimento delle illusioni,
-                    senza le quali non ci sarà quasi mai grandezza di pensieri nè <del
-                        hand="#penna_?"> grandi</del> forza e impeto e ardore d’animo, nè grandi
-                    azioni che per lo più sono pazzie. Quando ognuno è bene illuminato in vece dei
-                    diletti e dei beni vani come sono la gloria l’amor della patria <del
-                        hand="#penna_?">e</del> la libertà ec. ec. cerca i solidi cioè i piaceri
-                    carnali osceni </p>
+                    <pb xml:id="p_21" n="21"/><p>they curse art
+                    and extol nature, they fail to realize that where there is less art, there is less
+                    nature.</p>
+                 <p xml:id="p21_1" n="21.1"> The poet must not only imitate and depict nature perfectly but also imitate
+                    and depict it naturally; indeed, he who does not imitate nature naturally does
+                    not imitate nature.That’s why <persName ref="#Ovid">Ovid</persName>, who depicts nature without naturalness,
+                    that is, who pursues those objects to such an extent that in the end he presents
+                    them to us, and even enables us to see and touch and feel them, but only after
+                    infinite labor on his part (so that he needs a page to show us what<persName ref="#Dante">Dante</persName>shows
+                  us in a terzina), and with more tenacity than effi cacy, soon becomes tiresome
+                    and, what’s more, unpleasing, because he is unable to conceal his art, and with
+                    so much circling around the objects (not only because of rash intemperance
+                    and restlessness but also because he is unable to describe the figure without a
+                    lot of details, and if he were not lengthy he would not be clear) he displays dili<lb/>gence,
+                    and diligence in poets is the opposite of naturalness. What poets must
+                    seem to display, besides the objects imitated, is a beautiful negligence, and this
+                    is what we see in the ancients, who were masters of this most necessary and
+                    essential art, this is what we see in <persName ref="#Ariosto">Ariosto</persName>,<persName ref="#Petrarca"
+                       >Petrarca</persName>,etc., this is what is lack<lb/>ing
+                    unfortunately even in the best and most classic of the moderns, this is what
+                    is not achieved through sentimentality, or through  <persName ref="#Breme">Breme</persName>’s system, or in mod<lb/>ern
+                    French poetry, nor can it be achieved, because this very sentimentality re<lb/>veals
+                    a certain diligence, etc., it reveals, in short, the poet who is speaking, etc.
+                 </p>
+                 <p xml:id="p21_2" n="21.2">In <persName ref="#Ovid">Ovid</persName> we see, in short, that he wants to depict and do what is so difficult
+                    with words, to show the fi gure, etc., and we see the work he puts into it. In
+                    <persName ref="#Dante">Dante</persName> no: he seems to want to tell a story and do what is easy with words, and
+                    in the way that words are ordinarily used, and he describes exquisitely, and yet
+                    the work he puts into it cannot be seen, he doesn’t point out this or that little
+                    detail, and he raised his hand and shook it and turned a little and so forth (as
+                    the Romantics do in their descriptions, and in general those En glish or French
+                    descriptive poets, as well as prose, etc., lately so much in vogue). In short, in
+                    <persName ref="#Dante">Dante</persName> there is negligence, in <persName ref="#Ovid">Ovid</persName> not.</p>
+                    
+          <p xml:id="p21_3" n="21.3"><seg source="#Quiete2">
+                  <l>Sì come dopo la procella oscura<lb/> Canticchiando gli augelli escon del
+                      loco<lb/> Dove cacciogli il vento (nembo) e la paura;<lb/></l>
+                  <l>E il villanel che presso al paterno foco<lb/> Sta sospirando il sol, si
+                      riconforta (si rasserena)<lb/> Sentendo il dolce canto e il dolce
+                      gioco</l>
+              </seg>
+             <seg source="#en.translate">
+                <l>[As after the dark tempest
+                   <lb/>Birds singing leave the place
+                   <lb/>Where wind (storm) and fear drove them;
+                </l>
+                <l>And the villager at his hearth
+                   <lb/>Yearning for the sun, is comforted (is cheered)
+                   <lb/>By the sound of sweet song and sweet merriment;]1</l>
+             </seg>
+          </p>
+                 <p xml:id="p21_4" n="21.4"> The great majority of useful works bring plea sure indirectly, showing how
+                    <lb/>we can obtain it. Poetry brings it immediately, provides it for us.</p>
+          <p xml:id="p21_5" n="21.5">
+              <seg source="#Dialogo_Murco_Filosofo"><persName
+                 ref="#Longinus">Longinus</persName>asked (at the end of his treatise On the Sublime) why there were
+                 so few great men in his time and gave the explanation that it was partly be<lb/>cause
+                 of the end of the republics and of liberty, and partly because of avarice,
+                 lust, and sloth.Now these are not the mothers but the sisters of that effect of
+                 which we speak. And they all derive from the progress of reason and civiliza<lb/>tion,
+                 and from the absence or weakening of illusions, without which there will
+                 almost never be greatness of thought, or power and force and boldness of
+                 spirit, or great actions, which are usually a kind of madness. But when every<lb/>one
+                 is thoroughly enlightened as to how glory, patriotism, liberty, etc. etc., are
+                 vain delights and goods without substance, he looks for something solid, ob<lb/>scene
+                 carnal pleasures,
+              </seg>
+          </p>
                 </body>
                 <back>
                     <div>
@@ -2374,154 +2356,113 @@
             <text type="22">
                 <body>
                     <pb xml:id="p_22" n="22"/><p>
-                    <del hand="#penna_?"><add hand="#penna_?">fiscici ec.</add></del> ec. in somma i
-                    terrestri, <add hand="#penna_?">cerca l’utile suo proprio sia consistente nel
-                        danaro o altro</add> diventa egoista necessariamente, nè si vuol sacrificare
-                    per sostanze immaginarie nè comprometter se per gli altri nè mettere a
-                    ripentaglio un bene maggiore come la vita le sostanze ec. per <del
-                        hand="#penna_?">la lode</del> un minore, come la lode ec. (lasciamo stare
-                    che la civiltà fra gli uomini tutti simili gli uni agli altri, togliendo e
-                    perseguitando la singolarità, e distribuendo i lumi <add hand="#penna_?">e le
-                        qualità buone</add> non accresce la massa, ma la sparte, sì che ridotta in
-                    piccole porzioni fa piccoli effetti). Quindi <del hand="#penna_?">la</del><add
-                        hand="#penna_?">l’avarizia la</add> lussuria e l’ignavia, e da queste la
-                    barbarie che vien dopo l’eccesso dell’incivilimento. E però non c’è dubbio che i
-                    progressi della ragione e lo spegnimento delle illusioni producono la barbarie,
-                    e un popolo oltremodo illuminato non diventa mica civilissimo, come sognano i
-                    filosofi del nostro tempo, <del hand="#penna_?">ma bar&lt;baro&gt; (</del> la
-                    Stael ec. ma barbaro: al che noi ci incamminiamo a gran passi e quasi siamo
-                    arrivati. La più gran nemica della barbarie non è la ragione ma la natura:
-                    (seguita però a dovere) essa ci somministra le illusioni che quando sono nel
-                    loro punto fanno un popolo veramente civile, e certo nessuno chiam<del
-                        hand="#penna_?">a</del><add hand="#penna_?">erà</add> barbari i Romani
-                    combattendo i Cartaginesi, né i Greci alle Termopile, quantunque que<del
-                        hand="#penna_?">i</del><add hand="#penna_?">l</add> temp<del hand="#penna_?"
-                        >i</del>
-                    <add hand="#penna_?">o</add> fosse pieno di ardentissime illusioni e <del
-                        hand="#penna_?">poco ragiovevoli</del>
-                    <add hand="#penna_?">pochissimo<choice>
-                            <orig>filosofici</orig>
-                            <corr resp="#Pacella">filosofico</corr>
-                        </choice></add> presso ambedue i popoli. Le illusioni sono in natura,
-                    inerenti al sistema del mondo, tolte via <del hand="#penna_?">,
-                        l’uo&lt;mo&gt;</del> affatto o quasi <add hand="#penna_?">affatto</add>
-                    l’uomo è snaturato; ogni popolo snaturato è barbaro, non potendo più correre le
-                    cose come vuole il sistema del mondo. La ragione è un lume; La natura vuol<del
-                        hand="#penna_?">e</del> essere illuminata dalla ragione non incendiata. Come
-                    io dico accadde presso i Greci e i Romani<del hand="#penna_?">,</del><add
-                        hand="#penna_?">:</add> al tempo di <persName ref="#Longino"
-                        >Longino</persName> già erano quasi barbari, eppure non c’era stata nessuna
-                    invasione straniera; dalla terra stessa loro nacque la barbarie, da quelle
-                    civilissime terre, perchè la civiltà era eccessiva. <persName ref="#Cicerone"
-                        >Cicerone</persName> era il predicatore delle illusioni. Vedete le
-                    Filippiche principalmente, ma poi tutte le altre Orazioni sue politiche; sempre
-                    sta in persuadere i Romani a operare illusamente, sempre l’esempio de’ maggiori,
-                    la gloria, la libertà, la patria, meglio la morte che il servizio; che vergogna
-                    è questa: Antonio un tiranno di questa razza ancora vive ec. E intanto
-                    Antonio-,- che sarebbe stato pugnalato nel foro o nella curia in altri tempi,
-                    tiranno vergognosissimo, non si poteva ottenere in Roma essendoci tante armate
-                    contro di lui, tanto motivo di sperare che sarebbe vinto, che fosse dichiarato
-                    nemico della patria: calcolavano cercavano ec. quello che in altri tempi senza
-                    un istante di deliberazione sarebbe stato deciso a pieni voti: Cicerone
-                    predicava indarno, non c’erano più le illusioni d’una volta, era venuta la
-                    ragione, non importava un fico la patria la gloria il vantaggio <add
-                        hand="#penna_?">degli altri</add> dei posteri <del hand="#penna_?">de</del>
-                    ec. eran fatti egoisti, pesavano il proprio utile, consideravano quello che in
-                    un caso poteva succedere, non più ardore non impeto, non grandezza d’animo,
-                    l’esempio dei maggiori <del>,</del> era una frivo</p>
+                        etc., in other words earthly pleasures, he looks for
+                        personal benefit whether in money or otherwise, and becomes necessarily
+                        selfish, unwilling to make sacrifi ces for imaginary rewards, or to compromise
+                       himself for others, or to place at risk a greater asset such as life, property, etc.,
+                        for a lesser one, such as praise, etc. (not to mention that civilization makes all
+                        men the same, removing and suppressing differences, and the distribution of
+                        wisdom and good qualities does not increase the mass but fragments it, so
+                      that, reduced to small portions, it produces small effects). This leads to avarice,
+                      lust, and sloth, and from them the barbarism that follows the excess of civilizat<lb/>ion.
+                        And so there is no doubt that the progress of reason and the extinction of illusions produce barbarism, and an excessively enlightened population certainly does not become highly civilized, as the phi los o phers of our day, Mme.
+                        de Staël, etc., imagine, but barbarous.1
+                         We are moving fast in this direction
+                        and have almost arrived. The greatest enemy of barbarism is not reason but
+                        nature. Nature (if properly followed, however) provides us with illusions that,
+                        in their right place, make a people truly civilized, and certainly no one would
+                        describe the Romans when they fought the Carthaginians, or the Greeks at
+                        Thermopylae, as barbarians, even though, for both populations, it was a time
+                        of very powerful illusions and was hardly philosophical at all. Illusions are
+                        natural, inherent to the system of the world. When they are removed completely or almost completely, man is denatured, and every denatured people is
+                        barbarous, for things can no longer run as the system of the world requires.
+                        Reason is a light; nature seeks to be illuminated by reason, not burned. As I
+                        say happened with the Greeks and the Romans: at the time of <persName ref="#Longino"
+                        >Longinus</persName>, they
+                         were already almost barbarous, yet there had been no foreign invasion; barbarism arose from their very own land, from those most civilized lands, because
+                        civilization had become excessive. <persName ref="#Cicerone"
+                        >Cicero</persName> was the advocate of illusions.2
+                         Read
+                        in particular the Philippics, but then all of his other political orations. He is
+                        always seeking to persuade the Romans to act in pursuit of their illusions, always with the example of their forebears, glory, liberty, patriotism, death
+                        rather than servitude. What a disgrace is this: Antony, a tyrant of this race, is
+                        still alive, etc. And yet, though Antony in other times would have been stabbed
+                        in the Forum or in the Curia as a most shameful tyrant, in Rome they could
+                        not succeed, even with so many armies against him, and with so much reason
+                        to hope that he would be defeated, that he would be declared an enemy of the
+                        state; they calculated, sought, etc., what in other times would have been agreed
+                        unanimously without a moment’s hesitation. Cicero argued in vain, there were
+                        no longer the illusions of earlier times, reason had come, people didn’t give a
+                        fig about patriotism glory benefit to others to posterity, etc.; they had become
+                        egoists, they weighed the benefit to themselves, worried about what might
+                        happen, forgot boldness and drive, forgot greatness of spirit, the example of
+                        their forebears was a triviality</p>
                 </body>
             </text>
             <text type="23">
                 <body>
-                    <pb xml:id="p_23" n="23"/><p>lezza
-                    in quei tempi tanto diversi: così perdevano la libertà <del hand="#penna_?"
-                        >vennero gl’imperatori,</del> non <del hand="#penna_?">seppero</del>
-                    <add hand="#penna_?">si arrivò a</add> avere e difendere quello che pur
-                        <persName ref="#Bruto">Bruto</persName> per un avanzo d’illusioni aveva
-                    fatto, vennero gl’imperatori, crebbe la lussuria e l’ignavia, e poco dopo con
-                        <del hand="#penna_?">tutta</del>
-                    <add hand="#penna_?"> tanto</add> più filosofia, <add hand="#penna_?"
-                        >libri</add>, scienza <del hand="#penna_?">storia</del> esperienza storia,
-                    erano barbari.<lb/> E la ragione facendo naturalmente amici dell’utile proprio,
-                    e togliendo le illusioni che ci legano gli uni agli altri, scioglie
-                    assolutamente la società, e <del hand="#penna_?">la</del>inferocisce le persone.
-                    </p>
-                <p xml:id="p23_2" n="23.2" hand="#penna_?">
-                    <add hand="#penna_?">Anche</add> l’amore della maraviglia <del hand="#penna_?"
-                        >non</del> par che si debba ridurre all’amore dello straordinario e all’odio
-                    della noia ch’è prodotta dall’uniformità. </p>
-                <p xml:id="p23_3" n="23.3" hand="#penna_?">
-                    <seg source="#Erminia2"><l>Vedendo meco viaggiar la luna.</l></seg>
-                </p>
-                <p xml:id="p23_4" n="23.4" hand="#penna_?"> Non è favoloso ma ragionevole e vero il
-                    porre i tempi Eroici tra gli antichissimi. L’eroismo e il sacrifizio di se stesso e
-                    la gloriosa morte <add hand="#penna_?">ec.</add> di cui parla il <persName
-                        ref="Breme">Breme</persName>
-                    <quote source="#Spettatore_47">Spettatore p.47</quote> finiscono colle illusioni, e
-                    non <del hand="#penna_?">ce</del>
-                    <del hand="#penna_?">c’è</del><del hand="#penna_?">ve</del><del hand="#penna_?"
-                        >v’è</del> è un minchione che le voglia <add hand="#penna_?">in se</add> in
-                    tempi di ragione e di filosofia <del hand="#penna_?">;</del>
-                    <add hand="#penna_?">,</add> come sono questi, ch’essendo tali, sono anche quello
-                    ch’io dico cioè privi affatto di eroismo ec. </p>
-                <p xml:id="p23_5" n="23.5" hand="#penna_?"> Quell’affetto nella lirica che cagiona
-                    l’eloquenza, e abbagliando meno persuade e muove più, e più dolcemente massime nel
-                    tenero, non si trova <del hand="#penna_?">nè</del>in nessun lirico, nè antico nè
-                    moderno se non nel <persName ref="#Petrarca">Petrarca</persName>, almeno almeno in
-                    quel grado: e <persName ref="#Orazio">Orazio</persName> quantunque fosse sia
-                    superiore nelle immagini e nelle sentenze, in questo affetto ed eloquenza e copia
-                    non può pur venire al paragone col Petrarca: il cui stile ha in oltre <del
-                        hand="#penna_?">un</del> (io non parlo qui solo delle canzoni amorose ma anche
-                    singolarmente e nominatamente delle tre liriche: <quote source="#RVF_28">O aspettata
-                        in ciel beata e bella</quote>, <quote source="#RVF_53">Spirito gentil che quelle
-                        membra reggi</quote>, <quote source="#RVF_128">Italia mia</quote> ec.) ha una
-                    semplicità e candidezza sua propria, che però si piega e si accomoda mirabilmente
-                    alla nobiltà e magnificenza nel dire, (come in quel <quote source="#RVF_28">Pon
-                        mente al temerario ardir di Serse</quote> ec.) <del hand="#penna_?"
-                        >anch&lt;e&gt;</del> così in tutto il corpo continuatamente, come nelle varie
-                    parti e in quella dove egli si alza a maggior sublimità e nobiltà che per
-                    l’ordinario: si piega alle sentenze (come in quel: <quote source="#RVF_53"> Rade
-                        volte addivien che a l’alte imprese</quote> ec.) quantunque di quelle spiccate
-                    non n’abbia gran fatto in quelle tre canzoni: si piega ottimamente alle immagini
-                    delle quali le tre canzoni abbondano e sono innestate nello stile e formanti il
-                    sangue di ecco ec. (come: <quote source="#RVF_128">Al qual come si legge, Mario
-                        aperse sì ’l fianco ec. Di lor vene ove il nostro ferro mise</quote> ec. <quote
-                        source="#RVF_53">Le man le avess’io avvolte entro i capegli</quote> ec.) </p>
-                <p xml:id="p23_6" n="23.6" hand="#penna_?"> Il <persName ref="#Testi">Testi</persName>
-                    <del hand="#penna_?">è</del> ha dicitura competentemente <del hand="#penna_?"
-                        >elegante e </del> poetica <add hand="#penna_?">ed elegante</add>, non manca
-                    d’immagini, ha anche qualche immaginetta graziosa (come dove dice di Davidde:
-                        <quote>E allor che in Oriente il dì nascea Usciva a pascer l’agne Su la costa
-                        del monte o lungo i rivi</quote>, nella Canzone <quote>Nelle squallide spiagge
-                        ove Acheronte </quote>) ha sufficiente grandiosità ed anche qualche eloquenza,
-                    le sentenze non sono mal collocate nè esposte, quantunque non nuove, riesce anche
-                    bene assai nelle Canzoni filosofiche all’Oraziana, imita spesso e qualche volta
-                    quasi traduce <persName ref="#Orazio">Orazio</persName>, ma non ha l<del
-                        hand="#penna_?">a</del><add hand="#penna_?">’</add> animatezza la scolpitezza e
-                    la concisa nervosità e muscolosità ed energia <del hand="#penna_?">del suo</del> e
-                    lo spirito del suo stile, nè molta originalità e novità, nè proprio proprio
-                    sublimità di concetti e d’invenzioni. Ma <del hand="#penna_?">quasi</del> tutti i
-                    pregi che ho detto, salvo solamente la grandiosità e l’eloquenza risplendono
-                    massimamente nelle <choice>
-                        <abbr> Canz </abbr>
-                        <expan> Canzoni </expan>
-                    </choice> della prima parte che sono <del hand="#penna_?">la</del> per la più parte
-                    filosofiche e Oraziane, <add hand="#penna_?">dove lo stile è castigato e non manca
-                        leggiadria di maniere e di concetti,</add> perchè nelle altre parti, quantunque
-                    s’innalzi maggiormente, e metta fuori più forza, e <del hand="#penna_?"
-                        >cop&lt;ia&gt;</del>facondia, e più energiche immagini e in somma sia più
-                    pindarico, è difficile trovar canzone che non sia malamente e <del hand="#penna_?"><choice>
-                            <abbr>tenacem.</abbr>
-                            <expan>tenacemente</expan>
-                        </choice></del> sporcamente e <choice>
-                        <abbr>visibilm.</abbr>
-                        <expan>visibilmente</expan>
-                    </choice> e <choice>
-                        <abbr>tenac.</abbr>
-                        <expan>tenacemente</expan>
-                    </choice> imbrattata dalla pece del suo secolo, che nella prima parte appena appena
-                    si scorge qua e la come macchiuzze e forse qualche canzona n’è libera affatto e può
-                    parere d’un altro secolo. Inoltre la dicitura</p>
+                    <pb xml:id="p_23" n="23"/><p>in times so changed. And so they lost their
+                        freedom, they were unable to retain and defend what even Brutus had done out
+                        of a last vestige of illusion; the emperors came, lust and sloth increased, and
+                       shortly afterward, with so much more of philosophy, books, science, experience,
+                        history, they had become barbarous.</p>
+                        <p xml:id="p23_1" n="23.1">And reason, by making us naturally inclined to pursue our own advantage,
+                        and removing the illusions that bind us to one another, dissolves society absolutely
+                        and turns people to savagery.</p>
+                 <p xml:id="p23_2" n="23.2">
+                    It seems that even the love of wonder has to be reduced to love of the extraordinary
+                    and hatred of the boredom produced by uniformity.</p>
+                 <p xml:id="p23_3" n="23.3">
+                    <seg source="#Erminia2"><l>Seeing the moon journey with me.</l></seg>
+                 </p>
+                    <p xml:id="p23_4" n="23.4">It is not fanciful but rather reasonable and true to place the heroic periods
+                       among the most ancient people. The heroism and self-sacrifice and glorious
+                       death, etc., discussed by  <persName
+                          ref="Breme">Breme</persName><quote source="#Spettatore_47">Spettatore p.47</quote> end with illusions, and no
+                       fool wishes these for himself in a period of reason and philosophy, like the
+                       present, one that, as such, is what I have said it is, a period totally devoid of
+                       heroism, etc.</p>
+                    <p xml:id="p23_5" n="23.5">The only lyric poet, ancient or modern, in whom you find that feeling
+                       which inspires eloquence and by dazzling less persuades and moves us more,
+                       especially where tenderness is concerned,is <persName ref="#Petrarch,">Petrarch,</persName>,at the very least to that
+                       extent. And however superior Horace might be in his images and ideas, in
+                       such feeling and eloquence and plentifulness he cannot even approach comparison
+                       with Petrarch, whose style (here I am talking not only about the love
+                       poems but also particularly and especially about the three lyric poems:<quote source="#RVF_28">O aspettata
+                         in ciel beata e bella</quote>, <quote source="#RVF_53">Spirito gentil che quelle
+                            membra reggi</quote>, <quote source="#RVF_128">Italia mia</quote> ec.) also has a simplicity and candor all its own, which yet is flexible
+                       and admirably fits the nobility and magnificence of the utterance (as in: <quote source="#RVF_28">Pon
+                         mente al temerario ardir di Serse</quote> ec.) 
+                        both in the whole structure, and continually, and in the various parts and in
+                        those passages where he rises to greater sublimity and nobility than usual. His
+                        style bends to his ideas (as in: <quote source="#RVF_53"> Rade volte addivien che a l’alte imprese,” etc.
+                            [“Rarely it happens that noble ventures</quote> ec.) qventures”]), even if few of any note are to be
+                        found in these three poems. It adapts wonderfully to the images that abound in
+                        the three poems and which are grafted onto the style and are its lifeblood, etc.(such as: <quote source="#RVF_128">Al qual come si legge, Mario
+                            aperse sì ’l fianco</quote> ec. <quote>[Whom, as
+                                we read, Marius so wounded]</quote>,<quote>Di lor vene ove il nostro ferro mise</quote> ec.<quote>[With their veins where he plunged our steel]</quote>, <quote
+                                    source="#RVF_53">Le man le avess’io avvolte entro i capegli</quote> ec. <quote>[Would that I had my hands clutched in her hair],</quote> etc. </p>
+                     <p xml:id="p23_6" n="23.6"> Il <persName ref="#Testi">Testi</persName>Testi’s writing is competently poetic and elegant, not lacking in imagination,
+                         and also has some nice little images (as when he says of David: 
+                         <quote>E allor
+                             che in Oriente il dì nascea / Usciva a pascer l’agne / Su la costa del monte o
+                             lungo il rio</quote>[<quote>And when the day dawned in the East he went out to graze his
+                                 sheep on the mountainside or along the stream]</quote>, in his poem <quote>Nelle squallide spiagge
+                                     ove Acheronte </quote>) It has adequate grandeur and some elegance; the
+                         ideas, though not new, are neither ill-placed nor ill-stated; he is also fairly successful
+                         in his philosophical Canzoni in the style of Horace.He often imitates
+                         and sometimes almost translates Horace, but does not have his lively and wellhoned
+                         style, or his concise ner vous ness and muscularity and energy and spirit,
+                         or great originality or novelty, or what you could really call sublimity in concept
+                         and invention. But all the qualities that I have described, save only grandeur
+                         and eloquence, shine above all in the Canzoni in the fi rst part, which are  mostly philosophical and Horatian, and in which the style is pure and there is
+                         no lack of elegance in manner and concepts. For in the other parts, although
+                         they are more exalted and show more strength and eloquence and more powerful
+                         descriptions, and are, in short, more reminiscent of Pindar, it is diffi cult to
+                         fi nd a canzone that is not smeared roughly and shabbily and visibly and per sistent
+                         ly with the tar of his century, which in the fi rst part is just visible here and
+                         there as tiny spots, and perhaps one or two canzoni are entirely unblemished by
+                         it and might appear to be from another century.His writing also</p>
                 </body>
                 <back>
                     <div>
@@ -2551,71 +2492,67 @@
             <text type="24">
                 <body>
                     <pb xml:id="p_24" n="24"/>
-                    <p xml:id="p24_2" n="24.2" hand="#penna_?"> Il <persName ref="#Filicaia"
-                        >Filicaia</persName> va dietro al sublime e anche l’arriva, ma parlando sempre
-                    di cose della nostra Religione ha tolto a imitare quel sommo sublime della
-                    scrittura, e per questo sommo sublime si fa pregiare, che del resto, quando o non lo
-                    cerca o non lo arriva, non ha quasi cosa ch’esca gran fatto dall’ordinario, non ha
-                    punto di leggiadria mai, non ha in nessun modo la varietà del <persName ref="#Testi"
-                        >Testi</persName> ec. Ma anche dove ha quel sommo sublime di stile simile allo
-                    scritturale e profetico, non è molto piacevole per cagione della <del
-                        hand="#penna_?">sua</del> monotonia delle sue Canzoni e perchè <add
-                        hand="#penna_?">le impressioni di</add> quel sommo sublime essendo <del
-                        hand="#penna_?">un carattere veementissimo</del>
-                    <add hand="#penna_?">troppo veementi</add> non <del hand="#penna_?">può</del>
-                    <add hand="#penna_?"> possono</add> durar gran tempo <del hand="#penna_?">a
-                        fare</del> e si spengono, e il lettore ci si assuefà, sì che con quella
-                    monotonia, viene a rendersi il sublime inefficace, e le odi stucchevolucce. Le
-                    migliori sono quelle <quote>per l’assedio e la liberaz. di Vienna</quote>, e tra
-                    questa a mio <choice>
-                        <abbr>giudiz.</abbr>
-                        <expan>giudizio </expan>
-                    </choice> quella che incomincia <quote>Le cose d’oro elette</quote>. Son anche
-                    queste macchiate qua e là del seicentismo. Le parole, locuzioni, metafore prosaiche
-                    non mancano, come quello: <quote>a tua Pietà m’appello</quote> della I. canzone, e
-                    nella seconda: <quote>E al tuo soldo arrolata è la vittoria</quote>. </p>
-                <p xml:id="p24_3" n="24.3" hand="#penna_?"> Nuova strada <del hand="#penna_?">fra</del>
-                    <add hand="#penna_?">per</add> gl’italiani s’aperse il <persName ref="#Chiabrera"
-                        >Chiabrera</persName>, solo veramente Pindarico, non escluso Orazio, sublime
-                    alla greca Omerica e Pindarica, cioè dentro grandi ma giusti limiti, e non
-                    all’orientale come il <persName ref="#Filicaia"> Filicaja</persName>, sublime, colla
-                    conveniente e greca semplicità, per mezzo dell’accozzamento <foreign xml:lang="grc"
-                        >τον λημμάτων</foreign>, come dice <persName ref="#Longino">Longino</persName>,
-                    cioè di certe parti della cosa che unite tutte insieme formano rapidamente il
-                    sublime, e un sublime come dico, rapido inaffettato e in somma pindarico; robusto
-                    nelle immagini, <add hand="#penna_?">sufficientemente</add> fecondo nell’invenzione
-                    e nelle novità, facile appunto come <persName ref="#Pindaro">Pindaro</persName> a
-                    riscaldarsi infiammarsi, sublimarsi anche per le cose tenui, e dar loro al primo
-                    tocco un’aria grande ed eccelsa. Fu ardito <add hand="#penna_?">caldo veemente <del
-                            hand="#penna_?">nelle cose</del> urtantesi nelle cose, ardito</add> nelle
-                    voci (come <hi rend="underline">instellarsi</hi>
-                    <hi rend="underline">inarenare</hi>) nelle locuzioni, nelle costruzioni, nel trarre
-                        <del hand="#penna_?">le forme</del> dal greco e latino le forme così de’
-                    sentimenti (come Canz. 70. Eroica: <quote source="#Chiabrera70">Meco non vo’ che
-                        vaglia sì sconsigliata voce</quote>, e altrove: <quote source="#Chiabrera?">A me
-                        non scenda in cor sì ria parola</quote>: e nota ch’io dico le forme de’
-                    sentimenti e non i sentimenti) come delle parole, nel che alle volte fu felice, come
-                    Canz. Eroica 23: <quote source="#Chiabrera23"><l>Qual non fe<del hand="#penna_?"
-                                >’</del> scempio sanguinoso acceso</l>
-                        <l>L’aspro cor dell’Eacide superbo?</l></quote>Canz. Eroica 71: <quote
-                        source="#Chiabrera71">Sol fe<del>’</del> contrasto il gran sangue di
-                        Guisa</quote> ec. Imitò anche bene i greci e <persName ref="#Pindaro"
-                        >Pindaro</persName> e <persName ref="#Orazio">Orazio</persName> nell’economia
-                    del componimento. E certo alle volte è nobilissimo tanto pel <choice>
-                        <abbr>sentim.</abbr>
-                        <expan>sentimento</expan>
-                    </choice> quanto per le parole: ma pochissimi pezzi finiscono di piacere; non arriva
-                    quasi mai, non ostante quello che s’è detto del suo stile estrinseco alla felicità
-                    d’espressione, e alla bellezza della <choice>
-                        <abbr>composiz.</abbr>
-                        <expan>composizione</expan>
-                    </choice> delle parole d’<persName ref="#Orazio">Orazio</persName>, è oscuro assai
-                    spesso per le <choice>
-                        <abbr>costruz.</abbr>
-                        <expan>costruzioni</expan>
-                    </choice> gli equivoci (non già voluti, come i seicentisti, ma non avvertiti o
-                    trascurati) la soppressione delle idee intermedie ne’ personaggi (se ben questa è
-                    naturale, perchè </p>
+                    <p>becomes less elegant and clean, and the words and turns of phrase, meta phors, fi gures
+                        of speech are often prosaic. In short, one sees too much of the feverishness and
+                        shoddiness and lack of polish of the seventeenth century.</p>
+                        <p xml:id="p24_1" n="24.1">Belonging only to Petrarch, as far as feeling is concerned, are not just abundance
+                        but also those outbursts full τοῦ πάθους [of pathos] and those affectionate
+                        images (such as: <quote>E la povera gente sbigottita </quote>[<quote>And the poor terror- stricken
+                            people],</quote>1 etc.) and all else that constitutes true, lively, and spirited eloquence.
+                        And from the heart’s infl uence in Petrarch’s poetry comes the softness and
+                        unctuousness almost, like that of the smoothest oil, of his Canzoni (and particularly
+                        those on Italy). The odes of others seem dry and hard and arid in comparison
+                        to his, and while he lacks none of the sublimity that others have, he
+                        also has the softness and mellowness that comes from the heart.</p>
+                    <p xml:id="p24_2" n="24.2"><persName ref="#Filicaia"
+                        >Filicaia</persName> pursues the sublime and also manages to achieve it, but by speaking
+                        always of matters pertaining to our Religion he has taken to imitating that
+                        supreme sublimity of Scripture, and it is for this supreme sublimity that he is
+                        admired. When he does not seek it or does not achieve it, there is almost nothing
+                        out of the ordinary about his work, he is never elegant, he has none of
+                        Testi’s variety, etc. But even when he achieves that supreme sublimity of style
+                        similar to Scripture or prophecy, he is not very pleasing, because of the monotony
+                        of his Canzoni and because the impressions of that supreme sublimity
+                        are too vehement and therefore cannot last very long and fade away, and the
+                        reader becomes inured, so that, with this monotony, the sublime becomes ineffectual
+                        and his poems become tedious. The best are the ones on the siege and
+                        liberation of Vienna, and among these, in my view, the one that begins <quote>Le
+                            corde d’oro elette.</quote> Here and there, they bear the stains of seventeenth- century
+                        style. There is no lack of prosaic words, turns of phrase, or meta phors, such as <quote>A tua Pietà m’appello</quote>
+                        <quote>[To your Mercy I appeal]</quote> in the first Canzone, and
+                        in the second:<quote>E al tuo soldo arrolata è la vittoria</quote><quote>[And in your ser vice is
+                            victory enrolled]</quote>.</p>
+                            <p xml:id="p24_3" n="24.3">Chiabrera opened up a path that was new for Italians. He was the only Pindaric poet, not excluding Horace, sublime in the Greek style of Homer and
+                                Pindar, that is to say, within broad but proper limits, and not in the oriental
+                                style of Filicaia, but sublime, with a fi tting Greek simplicity, through a juxtaposing τῶν λημμάτων [of ideas], as Longinus says,3
+                                in other words, of certain
+                               parts of something that, when fully assembled, rapidly form the sublime, and,
+                               as I say, a sublime that is rapid, unaffected, and, in short, Pindaric; robust in his
+                               images, suffi ciently fertile in invention and novelty, indeed easily capable, like
+                               Pindar, of becoming impassioned, excited, sublime even over insignifi cant
+                               things, and at once giving them an air of greatness and excellence. He was bold,
+                               passionate, fervent in dealing with his subjects, bold in his use of words (as in
+                               instellarsi [to fi ll with stars] inarenare [to run aground]), in his expressions, in
+                               his constructions, in taking from Greek and Latin the forms both of feeling
+                               (such as: Heroic Canzone 70: “Meco non vo’ che vaglia sì sconsigliata voce”
+                               [“I do not wish that such poor counsel be heeded”], and elsewhere: “A me non
+                               scenda in cor sì ria parola” [“May such a wicked word not enter my heart”],
+                               and note that I say the forms of feeling and not the feelings themselves) and of
+                               words, in which he was sometimes successful, such as: Heroic Canzone 23:
+                               “Qual non fe scempio sanguinoso acerbo / L’aspro cor dell’Eacide superbo?”
+                               [“What bloody bitter slaughter was not wrought by the savage heart of proud
+                               Eacide?”], Heroic Canzone 40: “Sol fe contrasto il gran sangue di Guisa”
+                               [“Only the noble blood of Guise resisted”], etc.4
+                                He was also a good imitator of
+                               the Greeks and Pindar and Horace in economy of composition. And certainly
+                               sometimes he is very noble both in feeling and in words. But in the end very
+                               few pieces manage to please. Despite what has been said about his outward
+                               style, he almost never succeeds in that felicity of expression or that beauty of
+                               composition that one fi nds in the words of Horace, he is quite often obscure
+                               by reason of his constructions, his ambiguities (not deliberate, like those of the
+                               seventeenth-century poets but either not noticed or ignored), the suppression
+                               of intermediate ideas in passages (even if this is natural because
+                            </p>
                 </body>
             </text>
             <text type="25">
