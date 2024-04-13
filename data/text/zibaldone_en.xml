@@ -969,114 +969,96 @@
             <text type="5">
                 <body>
                     <pb n="5" xml:id="p_5"/>
-            <p xml:id="p5_1" hand="#penna_F" n="5,1">Come i fanciulli e i giovinetti benchè di 
-                buona indole pure <choice><abbr> p. </abbr><expan> per </expan></choice> 
-                la malizia naturale, di quando in quando scappano in qualche difetto e non
-                per tanto sono differentissimi dagli uomini grandi e cattivi, così <del
-                    hand="#penna_F"> i trecentisti e i quattrocentisti </del>
-                <add hand="#penna_F"> gli antichi</add> senza conoscere nè amare i vizi <add
-                    hand="#pennaF"> delle arti </add>, per la naturale tendenza <del
-                    hand="#Penna_F>">alle</del> dell'ingegno alla ricercatezza e cose tali di quando
-                in quando vi cadeano non riflettendo che fossero vizi, e non per tanto infinitamente
-                differivano dagli adulti artefici del 600 e 700 radicati nella corruzione. E adesso
-                chiunque, per pochissimo che abbia studiato a prima giunta vede che quelli sono
-                errori e <del hand="#penna_F"> se </del> che gli antichi hanno errato. P.E. chi non
-                vede adesso che è cosa ridicola e affettatissima il lamento d'Olimpia ec. nell'
-                    <persName ref="#Ariosto">Ariosto</persName>, quello d'Erminia ec. nel <persName
-                    ref="#Tasso">Tasso</persName>? E pure questi grandissimi poeti perchè l'arte era
-                giovane e senza esperzienza in buona fede cascavano in questi errori, e noi perchè
-                siamo vecchi nell'arte col nostro senno e coll'esperienza dei tempi corrotti, ce ne
-                ridiamo e li fuggiamo. Ma questo senno e questa esperienza sono la morte della
-                poesia ec. Come però si dovrà dire che l'<persName ref="#Ariosto">Ariosto</persName>
-                per esempio avesse somma arte se cadeva spessissimo in difetti che il più meschino
-                artefice d'oggidì conosce a prima vista? non avea somma arte ma sommo ingegno,
-                pulitissimo, ma non corrotto, e meno poi ripulito. </p>
-            <p xml:id="p5_2" n="5,2" hand="#penna_F"> Per guardarci dai vizi e dalla corruzione
-                dello scrivere adesso è necessario un infinito studio <del hand="#penna_F">dei</del>
-                e una grandissima imitazione dei Classici, molto maggiore di quella che agli antichi
-                non bisognava<del hand="#penna_F">no</del>
-                <del hand="#penna_F">colle</del>
-                <add hand="#penna_F">senza le</add> quali cose non si può essere insigne scrittore,
-                e colle quali non si può diventar grande come i grandi imitati. </p>
-            <p xml:id="p5_3" n="5,3" hand="#penna_F">Come il cocchiere fa guidando i cavalli per la
-                china, che poco concede loro perché troppo non gli rapiscano. </p>
-            <p xml:id="p5_4" n="5,4">
-                <seg source="#Algarotti_Muret">
-                <l>Padron, se con lamenti e con rammarichi<lb/> Si rimediasse a le nostre
-                    miserie,<lb/> Bisognerebbe comperar le lagrime <lb/> A peso d’or: ma queste
-                    tanto possono <lb/> Le disgrazie scemar, quanto le prefiche <lb/> Svegliare i
-                    morti con le loro istorie: <lb/> Ne’ guai non ci vuol pianto ma consiglio. </l>           
-                </seg>
-                </p>
-                </body>
-                <back>
-                    <head>Citations</head>
-                    <div>
-                        <cit xml:id="Algarotti_Muret">
-                            <bibl>
-                                <author ref="#Algarotti">Algarotti</author>
-                                <title ref="#Opere_Algarotti">Opere</title>
-                                <pubPlace>Cremona</pubPlace>
-                                <date when="1778">1778</date>
-                            </bibl>
-                                <quote>
-                                    <l>
-                                        "Here, si querelis, ejulatu, fletibus
-                                        <lb/>
-                                        Medicina fieret miseriis mortalium,
-                                        <lb/>
-                                        auro parandae lacrumae contra forent:
-                                        <lb/>
-                                        nunc haec ad minuenda mala non magis valent,
-                                        <lb/>
-                                        quam naenia praeficae ad excitandos mortuos.
-                                        <lb/>
-                                        res turbidae consilium, non fletum expetunt."
-                                    </l>
-                                </quote>
-                        </cit>
-                    </div>
-                </back>
+                    <p xml:id="p5_1"  n="5,1">In the same way as children and young people, 
+                        though they may be of good character, nevertheless through natural wickedness slip 
+                        into some fault from time to time and despite this are totally different from adults 
+                        who are bad, so also the ancients, who, without either understanding or loving the 
+                        vices of the arts, but by virtue of the mind’s natural tendency toward affectation 
+                        and similar things sometimes slipped into them without realizing that they were vices, 
+                        were nevertheless infinitely different from the adult artmakers of the 1600s and 1700s, 
+                        who were rooted in corruption. And now anybody, even with the most basic schooling, 
+                        can see at first sight that those are errors and that the ancients erred. For example, 
+                        who cannot now see how ridiculous and affected Olympia’s lament, etc., is in 
+                            <persName ref="#Ariosto">Ariosto</persName>, and Erminia’s, etc., in <persName
+                            ref="#Tasso">Tasso</persName>? And yet these great poets fell into such errors 
+                            in good faith because their art was young and inexperienced, while we, because 
+                            we are old in the art with the experience and judgment of these corrupt times, 
+                            laugh at them and shun them. But this judgment and this experience is the death 
+                            of poetry, etc. How then can it be said that <persName ref="#Ariosto">Ariosto</persName>
+                            , for example, was the possessor of supreme art if he so often lapsed into mistakes that 
+                            the most wretched artist of today can recognize at first glance? He possessed not supreme 
+                            art but supreme genius, crystal clear, but untarnished, and still less polished to perfection.  </p>
+                    <p xml:id="p5_2" n="5,2" > To avoid the vices and corruption of writing, we now need endless study and 
+                        intense imitation of the Classics to a much much greater extent than the ancient writers needed. 
+                        If one does not have these things, one cannot be an eminent writer, and if one does, it is not 
+                        possible to become as great as the great models.  </p>
+                    <p xml:id="p5_3" n="5,3" >Like the coachman who, guiding his horses down a slope, gives them short 
+                        rein so that they don’t carry him away. </p>
+                    <p xml:id="p5_4" n="5,4">
+                        <seg source="#Algarotti_Muret">
+                        <l>Master, if with regret and lamentations <lb/> We could cure our miseries, <lb/> 
+                            BThe tears would need be bought <lb/> By their worth in gold: but they can as much <lb/> 
+                            Lessen the pain as mourners <lb/> Awaken the dead with their wailing: <lb/> 
+                            Times of trouble demand not tears but counsel. </l>           
+                        </seg>
+                        </p>
+                        </body>
+                        <back>
+                            <head>Citations</head>
+                            <div>
+                                <cit xml:id="Algarotti_Muret">
+                                    <bibl>
+                                        <author ref="#Algarotti">Algarotti</author>
+                                        <title ref="#Opere_Algarotti">Opere</title>
+                                        <pubPlace>Cremona</pubPlace>
+                                        <date when="1778">1778</date>
+                                    </bibl>
+                                        <quote>
+                                            <l>
+                                                "Here, si querelis, ejulatu, fletibus
+                                                <lb/>
+                                                Medicina fieret miseriis mortalium,
+                                                <lb/>
+                                                auro parandae lacrumae contra forent:
+                                                <lb/>
+                                                nunc haec ad minuenda mala non magis valent,
+                                                <lb/>
+                                                quam naenia praeficae ad excitandos mortuos.
+                                                <lb/>
+                                                res turbidae consilium, non fletum expetunt."
+                                            </l>
+                                        </quote>
+                                </cit>
+                            </div>
+                        </back>
             </text>
             <text type="6">
                 <body>
                     <pb n="6" xml:id="p_6"/>
-            <p xml:id="p6_1" n="6.1" hand="#penna_F">
-                <seg source="#Ottonieri2"> Messer tale domandato da alcuni che disputavano sopra una
-                    statua antica di Giove <del hand="#penna_F">, che ne sentis&lt;se&gt;</del> in
-                    terra cotta che ne sentisse, rispose: <q>Maravigliomi come non vi siate accorti
-                        che questo è un Giove in Creta<del hand="#penna_F">;</del><add
-                            hand="penna_F"> :</add></q> volendo dire in terra cotta, ma in
-                    sembianza, nell'isola di Creta dove Giove fu allevato.</seg>
+            <p xml:id="p6_1" n="6.1" >
+                <seg source="#Ottonieri2"> When a certain gentleman was asked by some people who were 
+                    discussing an ancient terracotta statue of Jupiter what he felt about it, he answered: 
+                    I am surprised you have not noticed that this is a Jupiter in Creta, meaning: made 
+                    from terracotta, but appearing to mean: from the island of Crete, where Jupiter was brought up.</seg>
             </p>
-            <p xml:id="p6_2" n="6.2" hand="#penna_F"><hi> Sistema di Belle Arti</hi></p>
-            <p xml:id="p6_3" n="6.3" hand="#penna_F"><seg source="Disegni_LetterariV">Fine - il
-                    diletto; secondario, alle volte, l'utile - Oggetto o mezzo di ottenere il fine -
-                    l'imitazione della natura, non del bello necessariamente - Cagione <add
-                        hand="#penna_F">primaria</add> del fine prodotto da questo oggetto o sia con
-                    questo mezzo - la meraviglia: forza del mirabile e desiderio di esso innato
-                    nell'uomo: tendenza a credere il mirabile: la meraviglia così è prodotta dalla
-                    imitazione del bello come da quella di qualunque altra cosa reale o verisimile:
-                    quindi il diletto delle tragedie ec. prodotto non dalla cosa imitata ma
-                    dall'imitazione che fa maraviglia - Cagioni secondari<del hand="#penna_F"
-                        >a</del><add hand="#penna_F">e</add> e relative ai diversi oggetti imitati -
-                    la bellezza, la rimembranza, l'attenzione che si pone a cose che tuttogiorno si
-                    vedono senza badarci ec. - Cagione primitiva del diletto destato dalla
-                    meraviglia ec. e però conseguentemente del diletto destato dalle belle arti -
-                        <del hand="#penna_f">lo</del> l'orrore della noia naturae all'uomo; ricerche
-                    sopra le cagioni di quest'orrore ec. - Cagioni dei difetti nelle belle arti -
-                    Sproporzione sconvenevolezza, cose poste fuor di luogo, <del hand="#penna_F"
-                        >i</del><add hand="#penna_F">a</add>l che <del hand="#penna_F"> fa che</del>
-                    solo (contro l'opinione di chi pensa che provenga dall'avere le arti per oggetto
-                    il bello) si riducono i difetti della bassezza della bruttezza deformità
-                    crudeltà sporchezza tristizia tutte cose che rappresentate o impiegate nei loro
-                    luoghi non sono difetti giacchè piacciono e per mezzo dell'imitazione producono
-                    la maraviglia, ma sono difetti fuor di luogo p.e. in un'anacreontica l'imagine
-                    di un ciclopo, (per lo più) in un'epopea per lo più la figura di un deforme ec.
-                    Altri difetti e vizi; affettazione ec. quasi tutti si riducono alla
-                    sconvenevolezza e inverosimiglianza che proviene dallo sconvenirsi <add
-                        hand="#penna_F">tra loro</add> in natura quegli attributi della cosa
-                inverisimile, onde la mente che comprende la </seg></p>
+            <p xml:id="p6_2" n="6.2" ><hi> SYSTEM OF FINE ARTS.</hi></p>
+            <p xml:id="p6_3" n="6.3" ><seg source="Disegni_LetterariV">Purpose—to give plea sure; secondary purpose sometimes, 
+                usefulness. — Object and means of obtaining the purpose— the imitation of nature, not necessarily of beauty. 
+                —Primary cause of the outcome produced by this object or by this means— wonder: power of the wonderful and 
+                desire for it inborn in man: tendency to believe in the wonderful: wonder is thus produced by the imitation 
+                of the beautiful as well as by the imitation of any other real or truthful thing: hence the delight of tragedies, 
+                etc., produced not by the thing imitated but by the imitation, which creates wonder. —Secondary causes, relating 
+                to the different objects imitated— beauty, memory, the attention that is paid to things that we see every day 
+                without noticing them, etc.2 — Original cause of the delight aroused by wonder, etc., and therefore consequently 
+                of the delight aroused by the fi ne arts— man’s natural abhorrence of boredom, research into the reasons for this 
+                abhorrence, etc. —Causes of defects in the fi ne arts— Disproportion, unsuitability, things out of place, which 
+                the defects of baseness ugliness deformity cruelty fi lth wretchedness all come down to (contrary to the opinion 
+                of those who think that it arises from the beautiful being the object of the arts), all things which when represented 
+                or used in their place are not defects, since they please and produce wonder by means of imitation, but which are 
+                defects when they are out of place, e.g., in Anacreontic verse the image of a cyclops (generally), the fi gure of a 
+                deformed person in an epic generally, etc. Other defects and vices, affectation, etc., almost all come down to 
+                unsuitability and implausibility, which arise from the fact that the attributes of the implausible thing do not go 
+                together in nature, thanks to which the mind that understands the  </seg></p>
                 </body>
                 <back>
                     <head>Citations</head>
@@ -1096,36 +1078,35 @@
             <text type="7">
                 <body>
                     <pb n="7" xml:id="p_7"/>
-                    <p>sconvenienza degli attributi concepisce l'inverisimiglianza - Diversi rami della
-                    imitazione che formano i diversi oggetti delle belle arti e i diversi generi
-                    p.e. di poesia, i quali tanto più son degni e nobili quanto più degni ec. sono
-                    gli oggetti, onde un genere che abbia per oggetto il deforme, sarà un genere
-                    poco stimabile e da non mettersi p.e. coll'eopea, benchè anch<del
-                        hand="#penna_F">e</del><add hand="#penna_F">'</add>esso sia un genere di
-                    poesia destando la maraviglia e quindi il diletto col mezzo dell'imitazione
-                    -</p>
-                    <p xml:id="p7_1" n="7.1" hand="#penna_F">
+                    <p>unsuitability of the attributes perceives the implausibility. —Different branches of 
+                        imitation that form the different objects of the fi ne arts and the various genres, 
+                        e.g., of poetry, which are the more worthy and noble the more worthy, etc., are 
+                        their objects, whence a genre that has deformity as its object will be little esteemed 
+                        and should not be placed, e.g., with the epic, although it too is a kind of poetry that 
+                        arouses wonder and hence delight through the medium of imitation</p>
+                    <p xml:id="p7_1" n="7.1" >
                         <table rows="4" cols="2">
                             <row role="data">
-                                <cell cols="1">Del bello</cell>
-                                <cell cols="2"> Del sublime</cell>
-                                <cell cols="3">Del terribile</cell>
-                                <cell cols="4">Del ridicolo, vizioso ec.</cell>
+                                <cell cols="1">The Beautiful </cell>
+                                <cell cols="2"> The Sublime </cell>
+                                <cell cols="3">The Terrible </cell>
+                                <cell cols="4">The Comic and the Vicious, etc. </cell>
         
                             </row>
                             <row role="label">
-                                <cell cols="1"> Epopea Lirica ec, <lb/><add hand="#Penna_Y">vari rami del bello.
-                                        Bello delicato-grazioso-ameno-elegante. <seg source="Martignoni1"
-                                            >V. <persName ref="#Martignoni">Martignoni</persName> ec. Annali
-                                            di scienze e lettere n. 8. P. 252-54 
-                                                
-                                </seg>. Ci può essere il bello delicato e il non
-                                        delicato. Ercole Apollo.</add>
-                                    <add hand="#penna_?">Bello sublime. Giove</add>
+                                <cell cols="1"> Epic, Lyric, etc.  <lb/>vDifferent branches of the beautiful. 
+                                    Delicate beauty— graceful— pleasing—elegant. <seg source="Martignoni1">See
+                                        <persName ref="#Martignoni">Martignoni</persName> ec. Annali
+                                            di scienze e lettere n. 8. P. 252-54 </seg>. 
+                                            There can be delicate
+                                            beauty and beauty that
+                                            is not delicate. Hercules
+                                            Apollo. 
+                                    <add hand="#penna_?">Sublime beauty.Jupiter.</add>
                                 </cell>
-                                <cell cols="2"> Lirica Epopea ec. </cell>
-                                <cell cols="3"> Tragica ec. </cell>
-                                <cell cols="4"> Commedia Satira Poesia Bernesca ec. </cell>
+                                <cell cols="2"> Lyric, Epic, etc </cell>
+                                <cell cols="3"> Tragedy </cell>
+                                <cell cols="4"> Comedy, Satire, Bernesque poetry, etc. </cell>
                             </row>
                         </table>
                     </p>
@@ -1174,67 +1155,73 @@
             <text type="8">
                 <body>
                     <pb n="8" xml:id="p_8"/>
-            <p xml:id="p8_1" n="8.1" hand="#penna_F">Provatevi a <del hand="penna_F">pensare</del>
-                respirare artificialmente, e a fare pensatamente qualcuno di quei moltissimi atti
-                che si fanno per natura; non potrete, se non a grande stento e men bene. Così la
-                tropp’arte nuoce a noi: e quello che <persName ref="#Omero">Omero</persName> diceva
-                ottimamente per natura, noi pensa<add hand="penna_F">ta</add>mente e con infinito
-                artifizio non possiamo dirlo se non mediocremente, e in modo che lo stento più o
-                meno quasi sempre si scopra <seg source="#Zib_461"><add hand="Penna_X">v.p.
-                        461</add></seg></p>
-            <p xml:id="p8_2" n="8.2" hand="#penna_F"> Difficoltà d’imitare: più facile il far più
-                che quel medesimo: quanto sia difficile l’essere uguale: quanto rara in natura
-                l’uguaglianza perfetta: quindi la maraviglia nata dall’imitazione e il diletto nato
-                dalla maraviglia: <add hand="penna_F"> v. <persName ref="#Quintiliano"
-                        >Quintiliano</persName> I. 10. c. 11. <seg source="#Quintiliano1">quindi
-                        la maggior facilità di esprimere un bello ideale che il proprio bello
-                        naturale anche minore dell’ideale. 
-                    </seg>
-                </add>.</p>
-            <p xml:id="p8_3" n="8.3" hand="#penna_F">Due gran dubbi mi stanno in mente circa le
-                belle arti. Uno se il popolo sia giudice ai tempi nostri dei lavori di belle arti.
-                L’altro se il prototipo del bello sia veramente in natura, e non dipenda dalle
-                opinioni e dall’abito che è una seconda natura. Della prima quistione se mi verrà in
-                mente qualche pensiero lo scriverò poi: della seconda osservo che a noi par
-                conveniente a un soggetto (e la bellezza sta tutta si può dire nella convenienza)
-                quello che siamo assueffatti a vederci, e viceversa sconveniente ec. E però ci par
-                bello che ha quello che ha queste tali cose e brutto o difettoso quello che non
-                    l<del hand="#penna_F">’</del><add hand="#penna_F">e</add> ha: benchè in natura
-                    <add hand="#penna_F">non</add> debba averle o viceversa. P.e. ci par deforme una
-                certa razza di cani quando ha l’orecchie non tagliate ec. Potenza della moda
-                specialmente intorno alla bellezza delle donne. ec. Mi pare che in natura non ci
-                siano quasi altro che i lineamenti del bello, come sono l’armonia la proporzione e
-                cose tali che secondo il solo lume naturale debbono trovarsi in ogni cosa bella: e
-                che l’ombreggiare di oggetti belli dipenda tutto dalle nostre opinioni. Per questo
-                si possono addurre infiniti esempi. E distinguo in due classi: l’una di quelli che
-                provano la diversità di opinioni intorno agli oggetti <del hand="#penna_F">di</del>
-                in natura; l’altra ec. Intorno agli oggetti nell’imitazione ossia nelle belle
-                arti.</p>
-            <p xml:id="p8_4" n="8.4" hand="#penna_F">
+            <p xml:id="p8_1" n="8.1" >Try to breathe artificially or carry out consciously one of those many
+                actions that are done naturally—you will not succeed, or only with difficulty
+                and not so well. In the same way too much art harms us, and what <persName ref="#Omero">Homer</persName>
+                naturally said so well, we are able consciously and with infi nite artifi ce to say
+                only moderately well, and in such a way that the effort is almost always more
+                or less apparent. <seg source="#Zib_461">See p. 461. </seg></p>
+            <p xml:id="p8_2" n="8.2" > The diffi culty of imitating: easier to do more than the thing itself: how diffi cult it is to be equal: how rare perfect equality is in nature: hence the wonder
+                born of imitation and the delight born of wonder. See <persName ref="#Quintiliano">Quintilian</persName>, bk. 10, ch. 11.2
+                Hence the greater ease of expressing ideal beauty than actual natural beauty,
+                even if it is less than ideal beauty.</p>
+            <p xml:id="p8_3" n="8.3" >I have two great doubts about the fine arts. First, whether the people can be
+                judges in our times of works of fine art. Second, whether the prototype of
+                beauty is truly in nature, and does not depend upon opinions and habit, which
+                is a second nature. On the first question, if some thought comes to mind, I will
+                write it down later. On the second, I notice that what we regard as proper to a
+                subject (and beauty, one might say, consists entirely in propriety) is what we are
+                accustomed to see as proper, and vice versa with what we regard as improper,
+                 etc., and therefore what has such features seems beautiful to us and what does
+                not seems ugly or defective: even though it does not have them in nature, or
+                vice versa. For example, a certain breed of dog seems deformed to us when its
+                ears are not cropped, etc., power of fashion especially in relation to the beauty
+                of women, etc.3
+                 It seems to me that in nature there exists almost nothing other
+                than the outlines of beauty, such as harmony, proportion, and similar things,
+                which, following natural perception alone, must be found in every beautiful
+                thing, while how beautiful objects are shaded in depends entirely upon our
+                opinions. It is possible to find endless examples of this. And I put them in two
+                classes: in the first, those which show the diversity of opinions about objects in
+                nature; in the second, etc., about objects in imitation, that is, in the fine arts.</p>
+            <p xml:id="p8_4" n="8.4" >
                 <table rows="2" cols="2">
                     <row role="data">
-                        <cell cols="1">Natura</cell>
-                        <cell cols="2">Belle arti</cell>
+                        <cell cols="1">Nature</cell>
+                        <cell cols="2">Fine arts</cell>
                     </row>
                     <row role="label">
-                        <cell cols="1">Occhi azzuri belli tra’ greci: neri tra noi. Capelli biondi
-                            belli in italia nel 500. neri al presente. Diversissime opinioni de’
-                            barbari intorno alla bellezza che pur mostrano che in natura non ce n’è
-                            idea fissa. V. <persName ref="#Camper">Camper</persName>
-                            <seg source="#Camper1">Diss. Sur le beau physique</seg>. Cavalli
-                            scodati. Cani colle orecchie tagliate.<add hand="#penna_Y"> opinione e
-                                senso de’ nostri contadini circa la bellezza, e v. quelle descritte
-                                nella Beca e nella Nencia non già da scherzo, ma perchè di quella
-                                sorta piacciono ai villani. Bello ideale ch’esprimerebbe p.e. un
-                                pittore moro di qualunque genio ed entusiasmo si fosse. Il bello
-                                ideale non è </add></cell>
-                        <cell cols="2">Pittura ec. de’ cinesi. <seg source="#Martignoni2">Musica de’ turchi v. <persName
-                                ref="#Martignoni">Martignoni </persName> annal. di Scienze e lett.
-                            N. 8. P. 245. nota ove anche della musica
-                                francese e italiana. Presso noi non disdicono le fabbriche a
-                            mattoni nudi, anzi son ridicole imbiancate e colorite. Il contrario de’
-                            Cinesi ai quali le nostre facciate parrebbero cosa affatto greggia e
-                            rozza.</seg></cell>
+                        <cell cols="1">Beautiful eyes: blue for the Greeks,
+                            black for us. Blond hair beautiful in Italy
+                            in the sixteenth century: now black.
+                            Widely differing opinions among the
+                            Barbarians about beauty, which also
+                            show that in nature there is no fi xed idea
+                            about it. See <persName ref="#Camper">Camper</persName>
+                            <seg source="#Camper1">Diss. Sur le beau physi  que</seg>. 5
+                            Horses with docked
+                           tails. Dogs with cropped ears. Our
+                           farmers’ opinion and feelings about
+                           beauty, and see those descriptions in the
+                           Beca and the Nencia,
+                           not as a joke, but
+                           because country people like that type.
+                           Ideal beauty that would be expressed by,
+                           e.g., a Moorish paint er what ever his
+                           genius and enthusiasm. Ideal beauty is
+                           none other than the idea of propriety
+                           that an artist forms according to the
+                           opinions and customs of his time, and of
+                           his country.Beard and hair, cut or not.</cell>
+                        <cell cols="2">Chinese painting, etc. <seg source="#Martignoni2">Turkish music.
+                            See <persName ref="#Martignoni">Martignoni</persName>, Annali di scienze e
+                            lettere, no. 8, p. 245, note, which also
+                            deals with French and Italian music.
+                            We do not reject buildings of plain
+                            brick, indeed they are ridiculous when
+                            whitewashed and colored. The contrary
+                            for the Chinese, to whom our façades
+                            would seem crude and unrefined. </seg></cell>
                     </row>
                 </table>
             </p>

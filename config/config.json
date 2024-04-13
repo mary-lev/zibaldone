@@ -81,7 +81,7 @@
             "value": "diplomatic",
             "label": "Diplomatic",
             "title": "Diplomatic edition",
-            "visible": true
+            "visible": false
         }
     ],
     
