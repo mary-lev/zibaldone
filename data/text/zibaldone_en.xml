@@ -25,6 +25,7 @@
                     <name xml:id="MLam.">Marco Lamorte</name>
                     <name xml:id="ML">Maria Levchenko</name>
                     <name xml:id="AH">Atousa Heidarnia</name>
+                    <name xml:id="AC">Alice Caputa</name>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -107,6 +108,10 @@
                         <author xml:id="E.D.">Elio Donato</author>
                         <title xml:id="Vita">Vita Vergilii</title>
                     </bibl>
+                    <bibl xml:id="Eneide">
+                        <author ref="#Virgilio">Publio Virgilio Marone</author>
+                        <title ref="#Eneide">Eneide</title>
+                    </bibl>
                     <bibl xml:id="Epistolario">
                         <author ref="#G.L.">Giacomo Leopardi</author>
                         <title ref="#Epistolario">Epistolario</title>
@@ -160,7 +165,7 @@
                             passions que se manifestent sur le visage. Sur la conformité entre
                             l’hommes et les animaux et sur le Beau phisique</title>
                         <pubPlace>Utrecht</pubPlace>
-                        <date when="17992">1792</date>
+                        <date when="1792">1792</date>
                     </bibl>
                     <bibl xml:id="Bacchides">
                         <author ref="#Plauto">Plauto</author>
@@ -197,6 +202,11 @@
                         <title ref="#Ragion_Poetica">Della ragion poetica</title>
                         <pubPlace>Napoli</pubPlace>
                         <date when="1731">1731</date>
+                    </bibl>
+                    <bibl xml:id="Merope_Maffei">
+                        <author ref="#Maffei">Scipione Maffei</author>
+                        <title ref="#Merope_Maffei">Merope</title>
+                        <date when="1713">1713</date>
                     </bibl>
 
                 </listBibl>
@@ -555,6 +565,10 @@
                             ref="https://www.treccani.it/enciclopedia/platone_%28Enciclopedia-Italiana%29/"
                             > Platone </persName>
                     </person>
+                    <person xml:id="Augusto">
+                        <persName type="pers_citata" sameAs="https://viaf.org/viaf/18013086/"
+                            ref="https://www.treccani.it/enciclopedia/gaio-giulio-cesare-ottaviano-augusto/">Gaio Giulio Cesare Ottaviano Augusto</persName>
+                    </person>
 
                 </listPerson>
             </sourceDesc>
@@ -566,407 +580,355 @@
         <group>
             <text type="1">
                 <body>
-                    <pb xml:id="p_1"/> 
-                    <p xml:id="p1_1" n="1.1" hand="#penna_A"> Palazzo bello. Cane di notte dal casolare, al
-                        passar del viandante. </p>
-                        
+                    <div>
+                        <pb n="1" xml:id="p_1"/><lb n="[1]"/>
+                        <p xml:id="p1_1" n="1.1" hand="#penna_A">
+                            Palazzo Bello. Dog in the night from the farmhouse, as the wayfarer goes by.
+                        </p>
                         <p xml:id="p1_2" n="1.2">
                             <add hand="#penna_B">
                                 <lg>
-                                    <l> Era la luna nel cortile, un lato <lb/> Tutto ne illuminava, e discendea
-                                        <lb/> sopra il contiguo lato obliquo un raggio... <lb/>
-                                    </l>
-                                    <l>
-                                        <seg source="#Quiete"> Nella (dalla) maestra via s'udiva il carro <lb/>
-                                            Del passegger, che stritolando i sassi <lb/> Mandava un suon, cui
-                                            precedea da lungi <lb/> Il tintinnìo de' mobili sonagli </seg>
-                                    </l>
+                                    <l>The moon shone in the yard, one side</l>
+                                    <lb/><l>In its full light, and a moonbeam</l>
+                                    <lb/><l>Slanting obliquely down the next...</l>
+                                    <lb/><l>
+                                        <seg source="#Quiete">On (from) the highway you could hear<lb/>
+                                            The traveler’s carriage crunching on the stones,<lb/>And before that, from a long way off,<lb/>The jingling of harness bells.</seg>
+                                        </l>
                                 </lg>
                             </add>
                         </p>
-                        <p xml:id="p1_3" n="1.3" hand="#penna_A"> Onde <persName ref="#Aviano">Aviano</persName>
-                            raccontando una favoletta dice che <seg source="#Av_Fabulae1"> una donna di contado
-                                piangendo un suo bambolo, minacciogli se non taceva che l’avrebbe dato mangiare
-                                a un lupo. E che un lupo che a caso di là passava, udendo dir questo alla donna
-                                credettele che dicesse vero, e messosi innanzi all’uscio di casa così stette
-                                quivi tutto quel giorno ad aspettare che la donna gli portasse quella vivanda.
-                                Come poi vi stesse tutto quel tempo e la donna non se n’accorgesse e non
-                                n’avesse paura e non gli facesse motto con sasso o altro,</seg>
-                                <persName
-                                    ref="#Aviano">Aviano</persName> lo saprà che lo dice. E aggiugne che il lupo
-                                non ebbe niente perchè il fanciullo s’addormentò, e quando bene non l’avesse
-                                fatto non ci sarìa stato pericolo. E fatto tardi, tornato alla moglie senza
-                                preda perchè s’era baloccato ad aspettare fino a sera, disse quello che
-                                nell’autore puoi vedere. <add hand="#penna_C" place="interlinea"> ( <date notBefore="1817-07"
-                                    notAfter="1817-08">Luglio o Agosto 1817</date>
-                                <!--
-             @comm.Ale: c'è un modo per inserire l'alternativa tra luglio e agosto nel tag? 
-            --> .) </add>
+                        <p xml:id="p1_3" n="1.3" hand="#penna_A">And so <persName ref="#Aviano">Avianus</persName>
+                                tells a story about <seg source="#Av_Fabulae1">a country woman who threatened her crying child that if he didn’t quieten down she would feed him to a wolf. And by chance a wolf was passing by and heard her. He thought she meant what she said, so he sat down in front of the door of the house and stayed there all day waiting for the woman to bring him his food.</seg> How he stayed there all that time without the woman noticing him, or being afraid, or chasing him off with a stone or anything, only <persName ref="#Aviano">Avianus</persName> can explain. And he adds that <seg source="#Av_Fabulae2">the wolf didn’t get anything because the child fell asleep, and even if he had not, he wouldn’t have come to any harm. And when it got late, and the wolf went back to his wife without any prey, because he had wasted the whole day waiting, he said what you can read in the story.</seg>
+                                <add hand="#penna_C" place="interlinea">
+                                    (<date notBefore="1817-07" notAfter="1817-08">July or August 1817</date>.)
+                                </add>
                         </p>
                         <p xml:id="p1_4" n="1.4" hand="#penna_D">
-                            <seg source="Ottonieri"> Una Dama vecchia avendo chiesto a un giovane di leggere
-                                alcuni suoi versi pieni di parole antiche, e avutili, poco dopo rendendogliele
-                                disse che non gl'intendeva perchè quelle parole <add hand="#penna_D">non
-                                    s'usavano</add> al tempo suo <add hand="#penna_D">.</add>
-                                <del hand="#penna_D">non s'usavano.</del> Rispose il giovane: Anzi credea che
-                                s'usassero perchè sono molto antiche </seg>
+                            <seg source="#Ottonieri">An elderly Lady asked a young man if she could read some of his poems, which had many old words in them. A little later, having read them, she handed them back and told him she hadn’t understood them because those were not words that were used in her day. The young man replied: “But I was sure they were used, because they are very old.”</seg>
                         </p>
                         <p xml:id="p1_5" n="1.5" hand="#penna_D">
-                            <seg source="#Vita_ElioD"> Tutta la notte piove <lb/> E ritornan le feste a la dimane: <lb/> Fan del
-                                regno a metà Cesare e Giove. <lb/>
-                               
+                            <seg source="#Vita_ElioD">
+                                <lg>
+                                    <l>All night it rains</l>
+                                    <lb/><l>And the festivities return tomorrow:</l>
+                                    <lb/><l>Caesar and Jove share the realm between them.</l>
+                                </lg>
                             </seg>
                         </p>
-                        <p xml:id="p1_6" n="1.6" hand="#penna_D"> Dal niente in letteratura si passa al mezzo e
-                            al vero, quindi al raffinamento: da questo non c'è esempio che si sia tornato al
-                            vero. Greci latini italiani. Lo squisito gusto del volgo de' letterati non può
-                            essere se non quando ei non è ancora corrotto. P. E. i cinquecentisti volgari non
-                            peccavano d'altro che di poco, non di troppo, e però erano attissimi a giudicar bene
-                            del molto, o sia del vero bello, come faceano. </p>
-                        <p xml:id="p1_7" n="1.7" hand="#penna_D">
-                            <seg source="ottoagosto1817">
-                                <seg source="#ventunonovembre1817"> Il <date when="1300"> trecento </date> fu il
-                                    principio della nostra letteratura, non già il colmo, imperocchè non ebbe se
-                                    non tre scrittori grandi: il <date when="1400"> quattrocento</date> non fu
-                                    corruzione nè</seg></seg> 
+                        <p xml:id="p1_6" n="1.6" hand="#penna_D">
+                            In literature, one passes from nothing to the middle and to truth, then to refinement. There is no example of a return from refinement to truth. The Greeks. Italians writing in Latin. Fine taste among the generality of men of letters can exist only while it is still uncorrupted. For example, the only fault of <date when="1500">sixteenth-century</date> writers in Italian was insufficiency rather than excess, and they were therefore well suited to judge of the right amount, that is of true beauty, as indeed they did.
                         </p>
+                        <p xml:id="p1_7" n="1.7" hand="#penna_D">
+                            <seg source="#ottoagosto1817_1 #ventunonovembre1817">
+                                The <date when="1300"> fourteenth century</date> was the beginning of our literature, not yet its peak, since it had only three great writers;</seg> the <date when="1400"> fifteenth century</date> was neither the corruption nor
+                        </p>
+                    </div>
                     <!--End of first Div-->
-                    <!--PARALLEL PASSAGES DIV-->
                 </body>
                 <!--END OF BODY-->
                 <!--BEGINNING OF BACK-->
                 <back>
                    <div>
-                    <head>Citations</head>
-                    <cit xml:id="Av_Fabulae1">
-                        <bibl>
-                            <author ref="#Aviano">Aviano</author>
-                            <title ref="#Av_Fabulae">Fabulae</title>
-                            <citedRange corresp="#Av_Fabulae" target="https://digilander.libero.it/uraniaceleste/latino/ZANASI1/P7.html">I, vv. 11-6</citedRange>
-                            <!-- @comm.Ale: ho aggiunto un link a un sito bruttissimo a titolo d'esempio -->
-                        </bibl>
-                        <quote>Ne mireris, ait, deceptum fraude maligna / Vix miserum vacua delituisse fuga: / Nam quae praeda, rogo, quae spes contingere posset, / Iurgia nutricis cum mihi verba darent? / Haec sibi dicta putet, seque hac sciat arte notari, / Foemineam quisquis credidit esse fidem.</quote>
-                        <!-- @comm.Ale: anche dentro al quote vanno i tag <l>? -->
-                    </cit>
-                    <cit xml:id="Vita_ElioD"> 
-                        <bibl> 
-                            <author ref="#E.D.">Elio Donato</author> 
-                            <title ref="#Vita">Vita Vergilii</title>                            
-                        </bibl> 
-                        <quote> Nocte pluit tota, redeunt spectacula mane: /divisum imperium cum Iove Caesar habet</quote> 
-                    </cit>
-                    <cit xml:id="Quiete">
-                        <bibl>
-                            <title ref="#Canti">C (1829)</title>
-                            <citedRange corresp="#Canti">La Quiete dopo la tempesta, vv.
-                                22-24</citedRange>
-                            <ref>
-                                http://wikileopardi.altervista.org/wiki_leopardi/index.php?title=N35c_XXIV._La_quiete_dopo_la_tempesta_p._115
-                            </ref>
-                        </bibl>
-                        <quote>
-                            <l>E, dalla via corrente, odi lontano/</l>
-                            <lb/>
-                            <l>Tintinnio di sonagli; il carro stride/</l>
-                            <lb/>
-                            <l>Del passegger che il suo cammin ripiglia.</l>
-                            <lb/>
-                        </quote>
-                    </cit>
-                    <cit xml:id="Ottonieri">
-                        <bibl>
-                            <title ref="#Operette">OM (1824)</title>
-                            <citedRange corresp="#Operette">Ottonieri, VII, p. 146</citedRange>
-                        </bibl>
-                        <quote> Da giovane, avendo composto alcuni versi, e adoperatovi certe voci
-                            antiche; dicendogli una signora attempata, alla quale, richiesto da essa, li
-                            recitava, non li sapere intendere, perché quelle voci al tempo suo non
-                            correvano; rispose: anzi mi credeva che corressero; perché sono molto
-                            antiche. </quote>
-                    </cit>
-                    <cit xml:id="ottoagosto1817">
-                        <bibl>
-                            <title ref="#Epistolario">Ep (8 agosto 1817)</title>
-                            <citedRange corresp="#Epistolario">Lettera a Giordani, 8 agosto 1817, p.
-                                x</citedRange>
-                            <date when="1817-08-08">8 agosto 1817</date>
-                            <ref>
-                                http://ww2.bibliotecaitaliana.it/xtf/view?docId=bibit000098/bibit000098.xml
-                            </ref>
-                        </bibl>
-                        <quote>citazione</quote>
-                    </cit>
-                     <!-- La cit per l'edizione dell'opera Vite de' Pittori Antichi è tutta puramente esemplificativa; ho inserito il link alla digitalizzazione Google dell'edizione Stella 1667, I edizione, che quindi non corrisponde all'edizione menzionata da Leopardi.  -->
-                     <cit xml:id="Dati_Pittori">
-                        <bibl>
-                            <author ref="#Dati">Carlo Roberto Dati</author>
-                            <title ref="#Pittori">Vite de' Pittori Antichi</title>
-                            <citedRange corresp="#Pittori">ed. Siena, 1795, p.57.66</citedRange>
-                        </bibl>
-                        <quote></quote>
-                    </cit>
-                    <!-- La cit per il Discorso sopra la poesia è esemplificativa, tratta dal Commento dell'edizione Mondadori, p.3232-->
-                    <cit xml:id="Parini_Discorso">
-                        <bibl>
-                            <author ref="#Parini">Parini</author>
-                            <title ref="#Discorso">Discorso sopra la poesia</title>
-                            <citedRange corresp="#Discorso">Discorso sopra la poesia, in Opere, a cura di G.M. Zuradelli, Torino 1965, vol. II, p.271</citedRange>
-                        </bibl>
-                        <quote>L'anima nostra, che ama di essere sempre in azione e in movimento, niente più aborre che la noia</quote>
-                    </cit>
-                    <cit xml:id="ventunonovembre1817">
-                        <bibl>
-                            <title ref="#Epistolario">Ep (21 novembre 1817)</title>
-                            <citedRange corresp="#Epistolario">Lettera a Giordani, 21 novembre 1817, p.
-                                x</citedRange>
-                            <date when="1817-11-21">21 novembre 1817</date>
-                            <ref>
-                                http://ww2.bibliotecaitaliana.it/xtf/view?docId=bibit000098/bibit000098.xml
-                            </ref>
-                        </bibl>
-                        <quote>citazione</quote>
-                    </cit>
+                        <head>Citations</head>
+                        <cit xml:id="Av_Fabulae1"> <!--AC: Cambiato valore di target e ampliata citazione-->
+                            <bibl>
+                                <author ref="#Aviano">Aviano</author>, 
+                                <title ref="#Av_Fabulae">Fabulae</title>, 
+                                <citedRange corresp="#Av_Fabulae" target="https://la.wikisource.org/wiki/Fabulae_(Avianus)/I">I, vv. 1-4</citedRange>.
+                            </bibl>
+                            <quote>
+                                <lg>
+                                    <l>Rustica deflentem paruum iuraverat olim / </l>
+                                    <lb/><l>Ni taceat, rabido quod foret esca lupo. / </l>
+                                    <lb/><l>Credulus hanc vocem lupus audiit, et manet ipsas / </l>
+                                    <lb/><l>Pervigil ante fores, irrita vota gerens.</l>
+                                </lg>
+                            </quote>
+                        </cit>
+                        <cit xml:id="Av_Fabulae2">
+                            <bibl>
+                                <author ref="#Aviano">Aviano</author>, 
+                                <title ref="#Av_Fabulae">Fabulae</title>, 
+                                <citedRange corresp="#Av_Fabulae" target="https://la.wikisource.org/wiki/Fabulae_(Avianus)/I">I, vv. 5-16</citedRange>.
+                            </bibl>
+                            <quote>
+                                <lg>
+                                    <l>Nam lassata puer nimiae dat membra quieti; / </l>
+                                    <lb/><l>Spem quoque raptori sustulit inde fames. / </l>
+                                    <lb/><l>Hunc ubi silvarum repetentem lustra suarum / </l>
+                                    <lb/><l>Ieiunum coniux sensit adesse lupa: / </l>
+                                    <lb/><l>Cur, inquit, nullam referens de more rapinam, / </l>
+                                    <lb/><l>Languida consumptis sed trahis ora genis? / </l>
+                                    <lb/><l>Ne mireris, ait, deceptum fraude maligna / </l>
+                                    <lb/><l>Vix miserum vacua delituisse fuga. / </l>
+                                    <lb/><l>Nam quae preda, rogas, quae spes contingere posset, / </l>
+                                    <lb/><l>Iurgia nutricis cum mihi verba darent? / </l>
+                                    <lb/><l>Haec sibi dicta putet seque hac sciat arte notari, / </l>
+                                    <lb/><l>Femineam quisquis credidit esse fidem.</l>
+                                </lg>
+                            </quote>
+                        </cit>
+                        <cit xml:id="Vita_ElioD"> 
+                            <bibl> 
+                                <author ref="#E.D.">Elio Donato</author>,  
+                                <title ref="#Vita">Vita Vergilii</title>.                            
+                            </bibl> 
+                            <quote> 
+                                <lg>
+                                    <l>Nocte pluit tota, redeunt spectacula mane: / </l>
+                                    <lb/><l>divisum imperium cum Iove Caesar habet</l>
+                                </lg>
+                            </quote> 
+                        </cit>
                     </div>  
+                    <div>
+                        <head>Parallel Passages</head>
+                        <cit xml:id="Quiete">
+                            <bibl>
+                                <title ref="#Canti">C (1829)</title>, 
+                                <citedRange corresp="#Canti" target="http://wikileopardi.altervista.org/wiki_leopardi/index.php?title=N35c_XXIV._La_quiete_dopo_la_tempesta_p._115">La Quiete dopo la tempesta, vv.
+                                    22-24</citedRange>, 
+                                <ref>
+                                    http://wikileopardi.altervista.org/wiki_leopardi/index.php?title=N35c_XXIV._La_quiete_dopo_la_tempesta_p._115
+                                </ref>.
+                            </bibl>
+                            <quote>
+                                <l>E, dalla via corrente, odi lontano / </l>
+                                <lb/><l>Tintinnio di sonagli; il carro stride / </l>
+                                <lb/><l>Del passegger che il suo cammin ripiglia.</l>
+                            </quote>
+                        </cit>
+                        <cit xml:id="Ottonieri">
+                            <bibl>
+                                <title ref="#Operette">OM (1824)</title>, 
+                                <citedRange corresp="#Operette">Ottonieri, VII, p. 146</citedRange>.
+                            </bibl>
+                            <quote> Da giovane, avendo composto alcuni versi, e adoperatovi certe voci
+                                antiche; dicendogli una signora attempata, alla quale, richiesto da essa, li
+                                recitava, non li sapere intendere, perché quelle voci al tempo suo non
+                                correvano; rispose: anzi mi credeva che corressero; perché sono molto
+                                antiche. 
+                            </quote>
+                        </cit>
+                        <cit xml:id="ottoagosto1817_1"><!--AC: Inserita citazione esemplificativa-->
+                            <bibl>
+                                <title ref="#Epistolario">Ep (8 agosto 1817)</title>, 
+                                <citedRange corresp="#Epistolario" target="http://ww2.bibliotecaitaliana.it/xtf/view?docId=bibit000098/bibit000098.xml">Lettera a Giordani, 8 agosto 1817, p.
+                                    x</citedRange>, 
+                                <date when="1817-08-08">8 agosto 1817</date>, 
+                                <ref>
+                                    http://ww2.bibliotecaitaliana.it/xtf/view?docId=bibit000098/bibit000098.xml
+                                </ref>.
+                            </bibl>
+                            <quote>Sto ora quanto posso coi trecentisti, innamorato di quello scrivere [...]</quote>
+                        </cit>
+                        <cit xml:id="ventunonovembre1817"><!--AC: Inserita citazione esemplificativa-->
+                            <bibl>
+                                <title ref="#Epistolario">Ep (21 novembre 1817)</title>, 
+                                <citedRange corresp="#Epistolario">Lettera a Giordani, 21 novembre 1817, p.
+                                    x</citedRange>, 
+                                <date when="1817-11-21">21 novembre 1817</date>, 
+                                <ref>
+                                    http://ww2.bibliotecaitaliana.it/xtf/view?docId=bibit000098/bibit000098.xml
+                                </ref>.
+                            </bibl>
+                            <quote>Del Dittamondo, comechè lo sentissi dire, non era persuaso che valesse tanto: e credeva che de' poeti trecentisti, salvo i due sovrani, nessuno fosse buono per altro che pel vocabolario.</quote>
+                        </cit>
+                    </div>
                 </back>
                 <!--END OF BACK-->
             </text>
             <text type="2">
                 <body>
                     <div>
-                        <pb xml:id="p_2"/>
-                        <p xml:id="p2_1" n="2.1"><lb n="[2]"/>
-                                <seg source="#ottoagosto1817"> <seg source="#ventunonovembre1817">raffinamento del <date when="1300"
-                                            >trecento</date> , ma un sonno della letteratura (che avea dato luogo
-                                            <add hand="#penna_D">a</add> ll'erudizione) la quale restava ancora
-                                        incorrotta e peccava ancora più tosto di poco. <persName ref="#Poliziano"
-                                            > Poliziano</persName>, <persName ref="#Pulci"> Pulci</persName>. Il
-                                            <date when="1500"> cinquecento</date> fu vera continuazione del <date
-                                            when="1300"> trecento</date> e il colmo della nostra letteratura. Di poi
-                                        venne il raffinamento del <date when="1600"> seicento</date>, che nel <del
-                                            hand="#penna_D">tre</del> settecento s'è solamente mutato in corruzione
-                                        d'altra specie, ma il buon gusto nel volgo dei letterati non è tornato più,
-                                        nè tornerà secondo me, perchè dal niente si può passare al buono, ma dal
-                                        troppo buono o si <add hand="#penna_D">a</add> dal corrotto stimo che non si
-                                        possa. </seg>
-                                </seg>
+                        <pb n="2" xml:id="p_2"/>
+                        <p><lb n="[2]"/>
+                            the refinement of the <date when="1300"> fourteenth century </date>, but a period of sleep for literature, which, while it had given way to erudition, still remained
+                            uncorrupted and erred rather on the side of insufficiency. <persName ref="#Poliziano"> Poliziano </persName>, <persName ref="#Pulci"> Pulci </persName>.
+                            <seg source="#ventunonovembre1817_1">The <date when="1500"> sixteenth century </date> was the real continuation of the <date when="1300"> fourteenth century </date> and the peak of our literature.</seg> Then came the refinement of the <date when="1600"> seventeenth century </date>, which in the <del hand="#penna_D">four&lt;teenth&gt;</del> <date when="1700"> eighteenth century </date> was simply changed into corruption of another kind. <seg source="#ottoagosto1817">But good taste among men of letters has not returned, nor will it return, in my view, because one can move to goodness from nothing but not, I think, from too much goodness, in other words from corruption.</seg>
                         </p>
-                        <p xml:id="p2_2" n="2.2" hand="#penna_D"> Non il Bello ma il Vero o sia l'imitazione
-                                della Natura <del hand="#penna_D">qualsiasi</del>
-                                <add hand="#penna_D">qualunque</add> , si è l'oggetto delle Belle arti. Se fosse il
-                                Bello, piacerebbe più quello che fosse più bello e così si andrebbe alla perfezion
-                                metafisica, la quale in vece di piacere fa stomaco nelle art <del hand="#penna_D"
-                                    >e</del>
-                                <add hand="#penna_D">i</add> . Non vale il dire che è il solo bello dentro i limiti
-                                della natura, perchè questo stesso mostra che è l'imitazione della natura dunque che
-                                fa il diletto delle belle <del hand="#penna_D">,</del>
-                                <add hand="#penna_D">arti.</add> imperocchè se fosse il bello per se, vedesi che
-                                dovrebbe come  <del>i</del><add>h</add>o detto più piacere <del>lo</del> <del>quello ch</del>il maggior bello, e così
-                                più piacere la descrizione di un bel mondo ideale che del <choice>
-                                    <abbr>nŕo</abbr>
-                                    <expan>nostro</expan>
-                                </choice>. <seg source="#Parini_Discorso"> E che non sia il solo bello naturale lo scopo delle <choice><abbr>B.A.</abbr><expan>Belle Arti</expan></choice> vedesi
-                                in <del>mol</del><add>tutti</add> i poeti specialmente in <persName ref="#Omero">Omero</persName> ,
-                                    perchè se questo fosse, avrebbe dovuto ogni gran poeta cercare il più gran bello
-                                    naturale che si potesse, dove <persName ref="#Omero">Omero</persName> ha fatto
-                                Achille infinitamente men bello <del>che non si</del><add>di quello</add> che potea farlo, e così gli Dei ec. e
-                                    sarebbe maggior poeta <persName ref="#Anacreonte">Anacreonte</persName> che
-                                        <persName ref="#Omero">Omero</persName> ec. e noi proviamo che ci piace più
-                                    Achille che Enea ec. onde è falso anche che quello di <persName ref="#Virgilio"
-                                        >Virgilio</persName> sia maggior poema ec. Passioni morti tempeste ec.
-                                    piacciono egregiamente benchè sian brutte per questo solo che son bene imitate,
-                                e se è vero quel <del>dice</del> che dice il <persName ref="#Parini">Parini</persName> nella
-                                <choice><abbr>Oraz.</abbr><expan>Orazione</expan></choice> della poesia, <seg source="#Parini_1"> perchè l'uomo niente tanto odia quanto la noia, e
-                                        però gli piace di veder qualche novità ancorchè brutta. </seg> Tragedia. Commedia. Satira han per oggetto il brutto ed è una mera
-                                quistion di nome il contrastar se questa <add>sia</add> poesia. Basta che tutti la
-                                intendono per poesia <persName ref="#Aristotele"><choice><abbr>Aristot.</abbr><expan>Aristotele</expan></choice></persName> e <persName
-                                        ref="Orazio">Orazio</persName> singolarmente e che io dicendo poesia intendo
-                                    anche questi generi. <bibl>
-                                        <author ref="#Dati">Carlo Roberto Dati</author>
-                                        <title ref="#Pittori">Vite de' Pittori Antichi</title>
-                                        <citedRange corresp="#Pittori">ed. Siena, 1795, p.57.66</citedRange>
-                                    </bibl>
-                                </seg>
-                                <add hand="#penna_E"> V. <persName ref="#Dati">Dati</persName> , Pittori ed. Siena
-                                    1795. p. 57, 66. </add>
+                        <p xml:id="p2_1" n="2.1" hand="#penna_D">
+                            <seg source="#Parini_Discorso_1">The object of the Fine Arts is not Beauty but Truth, that is to say the imitation of Nature in any form. If it were Beauty, the more pleasing would be that which was more beautiful, and that would be the road to metaphysical perfection, which is nauseating rather than pleasurable in the art<add hand="#penna_D">s</add>. It is no good arguing that it is beauty only within the limits of nature because this itself shows that it is the imitation of nature therefore that gives delight in the fine <del hand="#penna_D">,</del> <add hand="#penna_D">arts,</add> for if it were beauty in itself, it follows, as I have said, that greater beauty should bring greater pleasure, and thus the description of a beautiful ideal world should bring more pleasure than the description of our own. <seg source="Dati_Pittori">And that the <choice> <abbr> F. A. </abbr> <expan> Fine Arts </expan> </choice> are not concerned with natural beauty alone can be seen in <del>man</del> <add>all</add> poets, especially in <persName ref="#Omero">Homer</persName>, because if the opposite were true, every great poet would have had to seek out the greatest natural beauty that he could, whereas <persName ref="#Omero">Homer</persName> made Achilles infinitely less beautiful than <del>what it</del> <add>he</add> might have done, and the same with the Gods, etc., and <persName ref="#Anacreonte">Anacreon</persName> would be a greater poet than <persName ref="#Omero">Homer</persName>, etc., and we find that we like Achilles more than Aeneas, etc., so that it is also untrue that <persName ref="#Virgilio">Virgil</persName>’s poem is greater, etc. Passions, deaths, storms, etc., give us great pleasure in spite of their ugliness for the simple reason that they are well imitated, and if what <persName ref="#Parini">Parini</persName> says in his <choice><abbr>Orat.</abbr><expan>Oration</expan></choice> on poetry is true, <seg source="#Parini_Discorso">this is because man hates nothing more than he does boredom, and therefore he enjoys seeing something new, however ugly.</seg> Tragedy, Comedy, Satire are all concerned with ugliness and it is just a question of names to argue about whether they <add> are </add> poetry. It is enough that everyone regards them as poetry, especially <persName ref="#Aristotele"> <choice> <abbr> Aristot. </abbr> <expan> Aristotle </expan></choice> </persName> and <persName ref="#Orazio"> Horace </persName>, and that when I talk about poetry I also mean these kinds of writing.</seg></seg> 
+                            <add hand="#penna_E"> See <ref target="#Pittori"><bibl><author ref="#Dati"><persName ref="#Dati"> Dati </persName></author>, <title ref="#Pittori">Pittori</title>, <pubPlace>Siena</pubPlace>, <date when="1795">1795</date>, <citedRange>pp. 57, 66.</citedRange></bibl></ref>
+                            </add>
                         </p>
-                        <p xml:id="p2_3" n="2.3" hand="#penna_F">
-                                <seg source="#trentamaggio1817"> Il brutto come tutto il resto deve star nel suo
-                                    luogo: e nell'Epica e lirica avrà luogo più di raro ma spessissimo nella Commed.
-                                    Trag. Sat. ed è quistion di parole ec. come sop. Il vile di raro si dee
-                                    descrivere perchè di raro può star nel suo luogo nella poesia (eccetto nelle
-                                    Sat. Commed. e poesia bernesca) non perchè non possa essere oggetto della
-                                    poesia. Ancora potendo esser molti generi di una cosa e questi qual più qual
-                                    meno degno, </seg>
-                                    </p>
+                        <p xml:id="p2_2" n="2.2" hand="#penna_F">
+                            <seg source="#trentamaggio1817">Ugliness, like everything else, must be kept in its place: it will rarely have a place in epic and lyric poetry but very often will in  <choice><abbr> Comed.</abbr><expan> Comedy </expan></choice>, <choice><abbr> Trag. </abbr><expan> Tragedy </expan></choice>, <choice><abbr> Sat. </abbr><expan> Satire </expan></choice>, and it is a question of words, etc., as I  said <choice><abbr> ab. </abbr><expan> above</expan></choice>. Baseness should rarely be described because rarely can it find its place in poetry (except in <choice><abbr> Sat. </abbr><expan> Satire</expan></choice>, <choice><abbr> Comed. </abbr><expan> Comedy</expan></choice>, and Bernesque poetry), not because it cannot be the object of poetry. Further, as there can be many kinds of a thing, and these of greater or lesser worth,</seg>
+                        </p>
                     </div>
                 </body>
                 <back>
                     <div>
                         <head>Citations</head>
-                        <cit xml:id="Parini_1">
+                        <cit xml:id="Parini_Discorso_1"><!--AC: Inserito target-->
                             <bibl>
-                                <author ref="#Parini">Parini</author>
-                                <title ref="#Discorso">Discorso sopra la poesia</title>
-                                <citedRange corresp="#Discorso"> Discorso sopra la poesia, in Opere, a cura
-                                    di G.M. Zuradelli, Torino 1965, vol. II, p.271 </citedRange>
-                            <q>
-                            <quote> "L'anima nostra, che ama di essere sempre in azione e in movimento,
-                                niente più aborre che la noia" </quote></q>
+                                <author ref="#Parini">Parini</author>, 
+                                <title ref="#Discorso">Discorso sopra la poesia</title>, 
+                                <citedRange corresp="#Discorso" target="http://www.bibliotecaitaliana.it/testo/si195">Discorso sopra la poesia, in Opere, a cura di G.M. Zuradelli, Torino 1965, vol. II, pp. x</citedRange>.
                             </bibl>
+                            <quote></quote>
                         </cit>
-                        </div>
+                        <cit xml:id="Parini_Discorso"><!--AC: Inserito target-->
+                            <bibl>
+                                <author ref="#Parini">Parini</author>, 
+                                <title ref="#Discorso">Discorso sopra la poesia</title>, 
+                                <citedRange corresp="#Discorso" target="http://www.bibliotecaitaliana.it/testo/si195">Discorso sopra la poesia, in Opere, a cura di G.M. Zuradelli, Torino 1965, vol. II, p. 271</citedRange>.
+                            </bibl>
+                            <quote>L'anima nostra, che ama di essere sempre in azione e in movimento, niente più aborre che la noia</quote>
+                        </cit>
+                        <cit xml:id="Dati_Pittori">
+                            <bibl>
+                                <author ref="#Dati">Carlo Roberto Dati</author>,
+                                <title ref="#Pittori">Vite de' Pittori Antichi</title>,
+                                <citedRange corresp="#Pittori">Siena, 1795, pp. 57, 66</citedRange>.
+                            </bibl>
+                            <quote></quote>
+                        </cit>
+                    </div>
+                    <div>
+                        <head>Parallel Passages</head>
+                        <cit xml:id="ventunonovembre1817_1"><!--AC: Inserita citazione esemplificativa-->
+                            <bibl>
+                                <title ref="#Epistolario">Ep (21 novembre 1817)</title>,
+                                <citedRange corresp="#Epistolario">Lettera a Giordani, 21 novembre 1817, p.
+                                    x</citedRange>,
+                                <date when="1817-11-21">21 novembre 1817</date>,
+                                <ref>
+                                    http://ww2.bibliotecaitaliana.it/xtf/view?docId=bibit000098/bibit000098.xml
+                                </ref>.
+                            </bibl>
+                            <quote>Poco prima di ricevere le vostre ultime, avea cominciato a leggere il Tasso, e il vostro consiglio intorno alle prose che vanno lette, m'è arrivato opportunissimo, perchè già quelle sue scolasticherie e sofisticherie mi facevano dare indietro. Ve ne ringrazio e me ne servirò. Ora sono con Demostene con Cicerone col Segneri e col vostro Tasso.</quote>
+                        </cit>
+                        <cit xml:id="ottoagosto1817"> <!--AC: Inserita citazione esemplificativa-->
+                            <bibl>
+                                <title ref="#Epistolario">Ep (8 agosto 1817)</title>, 
+                                <citedRange corresp="#Epistolario" target="http://ww2.bibliotecaitaliana.it/xtf/view?docId=bibit000098/bibit000098.xml">Lettera a Giordani, 8 agosto 1817, p.
+                                    x</citedRange>, 
+                                <date when="1817-08-08">8 agosto 1817</date>, 
+                                <ref>
+                                    http://ww2.bibliotecaitaliana.it/xtf/view?docId=bibit000098/bibit000098.xml
+                                </ref>.
+                            </bibl>
+                            <quote>Avrei carissimo che mi definiste il vostro perfetto scrittore italiano, perchè sono persuaso che per diventar mediocre bisogni mirare all'ottimo.</quote>
+                        </cit>
+                    </div>
                 </back>
             </text>
             <text type="3">
                 <body>
                     <div>
-                    <pb n="3" xml:id="p_3"/> <lb n="3"/><p> <seg>niente vieta che <del hand="#penna_F">la
-                        quest&lt;ione&gt;</del> dei diversi generi di poesia altro abbia per oggetto
-                    più particolarmente il bello altro il doloroso altro anche il brutto e il vile,
-                        <add hand="#penna_F">e però qual sia più nobile e degno qual meno</add> e
-                    non per tanto tutti sieno generi di poesia, nè ci sia oggetto di veruno di essi
-                    che non possa essere oggetto della poesia e delle arti imitative ec. </seg>
-                    </p>
-                    <p xml:id="p3_1" n="3.1">
-                        <seg source="#trentamaggio1817"> La perfezione di un'opera di <choice>
-                                <abbr>B.</abbr>
-                                <expan>Belle</expan>
-                            </choice> Arti non si misura dal più Bello ma dalla più perfetta imitazione
-                            della natura. Ora se è vero che la perfezione delle cose in sostanza consiste
-                            nel perfetto conseguimento del loro oggetto, qual sarà <del hand="#penna_F">il
-                                f&lt;ine&gt;</del> l'oggetto delle B. Arti? </seg>
-                    </p>
-                    <p xml:id="p3_2" n="3.2">
-                        <seg source="#trentamaggio1817"> L'utile non è il fine della poesia benchè questa
-                            possa giovare. E può anche il poeta mirare espressamente all'utile o ottenerlo
-                            (come forse avrà fatto <persName ref="#Omero">Omero</persName>) senza che però
-                            l'utile sia il fine della poesia, come può l'agricoltore servirsi della scure a
-                            segar biade o altro senza che il segare sia il fine della <del hand="#penna_F"
-                                >poesia</del> scure. La poesia può esser utile indirettamente, come la scure
-                            può segare, ma <del hand="#penna_F"> l'u</del> l'utile non è il suo fine
-                            naturale, senza il quale <add hand="#penna_F">essa</add> non possa stare, come
-                            non può senza il dilettevole, imperocchè il dilettare è l'ufficio naturale della
-                            poesia. </seg>
-                    </p>
-                    <p xml:id="p3_3" n="3.3">
-                        <seg source="#Erminia">
-                            <l> Sentia del canto risuonar le valli <lb/> D'agricoltori ec. </l>
-                        </seg>
-                    </p>
-                    <p xml:id="p3_4" n="3.4">
-                        <seg source="#trentamaggio1817"> Più ci diletterebbe una pianta o un animale veduto
-                            nel vero che dipinto o in altro modo imitato, perchè non è possibile che nella
-                            imitazione non resti niente a desiderare. Ma il contrario manifestamente
-                            avviene: da che apparisce che il fonte del diletto nelle arti non è il bello, ma
-                            l'imitazione. </seg>
-                    </p>
-                    <p xml:id="p3_5" n="3.5"> Il quattrocento restò dal fare, ma conservava l'idea del bello
-                        incorrotta; però benchè non facesse, pure apprezzava il fatto anzi lo cercava:
-                        quindi l'infinito studio de' Classici e l'erudizione dominante nel secolo. Il
-                        cinquecento col capitale acquistato nel 400. e coll'istradamento del 300 tornò a
-                        fare. Ma il seicento perchè era non debole ma corrotto, non solamente non sapea far
-                        bene, ma disprezzava il ben fatto anzi gli dispiacea. Quindi la dimenticanza di
-                            <persName ref="#Dante">Dante</persName> del <persName ref="#Petrarca"
-                            >Petrarca</persName> ec. che non si stampavano più. Nel principio del settecento
-                        ripigliammo non le forze, ma solo il buongusto e l'amore degli studi classici, e la
-                        prima metà di questo secolo somiglia però al quattrocento, nè si fa molto conto di
-                        quest'epoca di risorgimento perchè non produsse (come il 400) nessun lavoro d'arte
-                        fuorchè la Merope, e durò tanto poco che un uomo stesso potè aver veduto il tempo di
-                        corruzione il risorgimento e il ricadimento <add hand="#penna_F">.</add>
-                        <del hand="#penna_F">e il</del> Ricadute le nostre lettere (nella imitazione e
-                        studio degli stranieri) <del hand="#penna_F">comparivano</del>
-                        <add hand="#penna_F">son comparsi</add> nella <add hand="#penna_F">seconda</add>
-                        metà del 700 e principio dell'800 i nostri </p>
+                        <pb n="3" xml:id="p_3"/> 
+                        <p><lb n="[3]"/>
+                            <seg>there is no reason that one of the various kinds of poetry may not have the beautiful as its object in particular, another the sorrowful, another the ugly and the base, <add hand="#penna_F">and that one may therefore be more noble and worthy, another less so,</add> yet they are all kinds of poetry, and there is nothing to prevent the object of any single one of them from being the object of poetry and the imitative arts, etc.</seg>
+                        </p>
+                        <p xml:id="p3_1" n="3.1">
+                            <seg source="#trentamaggio1817">Perfection in a work of <choice> <abbr> F. </abbr> <expan> Fine </expan> </choice> Art is measured not by the greatest Beauty but by the most perfect imitation of nature. Now, if it is true that the perfection of things consists essentially in the perfect achievement of their object, what shall be the <del hand="#penna_F">a&lt;im&gt;</del> object of the <choice> <abbr> F. </abbr> <expan> Fine </expan> </choice> Arts?</seg>
+                        </p>
+                        <p xml:id="p3_2" n="3.2">
+                            <seg source="#trentamaggio1817">Usefulness is not the purpose of poetry although poetry can be useful. And the poet can be or deliberately intend to be useful (as <persName ref="#Omero"> Homer</persName> may perhaps have done) without usefulness being the purpose of his poetry, in the same way as a farmer can use an axe to scythe crops or for some other purpose without scything being the purpose of <del>poetry</del> an axe. Poetry can be indirectly useful, in the same way as an axe can scythe, but <del>u&lt;sefulness&gt;</del> usefulness is not the natural purpose without which <add hand="#penna_F">it</add> could not exist, in the way that it could not exist without delight, for to give delight is the natural office of poetry.</seg>
+                        </p>
+                        <p xml:id="p3_3" n="3.3">
+                            <seg source="#Erminia">
+                                I heard the valleys ring with farmers’ song, etc.
+                            </seg>
+                        </p>
+                        <p xml:id="p3_4" n="3.4">
+                            <seg source="#trentamaggio1817">A plant or animal seen in real life should give us more delight than when it is painted or imitated in some other way, because it is impossible for an imitation not to leave something to be desired. But the contrary is clearly true: from which it appears that the source of delight in the arts is not beauty but imitation.</seg>
+                        </p>
+                        <p xml:id="p3_5" n="3.5"><!--AC: Marcata la Merope e aggiunta alla <listBibl>-->
+                            The <date when="1400">fifteenth century</date> did not create beauty but preserved the idea of it intact, so although it did not produce anything itself, it still admired what had been done before, and indeed sought it out: hence the endless study of the Classics and the scholarship that was dominant during that century. The <date when="1500">sixteenth century</date>, with the capital acquired in the <date when="1400">15th century</date> and the direction set in the <date when="1300">14th</date>, began to create again. But the <date when="1600">seventeenth</date>, because it was not weak but corrupt, was not only incapable of creating good work but despised work that was good, was even offended by it. Thus <persName ref="#Dante">Dante</persName>, <persName ref="#Petrarca">Petrarch</persName>, etc., were forgotten and no longer printed. At the beginning of the <date when="1700">eighteenth century</date>, we did not regain our strength but only good taste and a love for classical studies, and for that reason <date from="1700" to="1750">the first half of that century</date> is like the <date when="1300">fourteenth century</date>. Little account is taken of this period of rebirth because (like the <date when="1400">1400s</date>) it did not produce any work of art apart from <ref target="#Merope_Maffei"><bibl><title ref="#Merope_Maffei">Merope</title></bibl></ref> and it lasted for such a short time that one man’s lifetime was enough to witness the corruption, the rebirth, and the decline<add hand="#penna_F">.</add> <del hand="#penna_F">and the</del> After our literature declined (into imitating and studying foreigners), our
+                        </p>
                     </div>
                 </body>
                 <back>
-                    <head>Citations</head>
-                    <div>
-                        <cit xml:id="Erminia">
+                     <div>
+                        <head>Parallel Passages</head>
+                        <cit xml:id="trentamaggio1817"> <!--AC: Inserita citazione esemplificativa-->
                             <bibl>
-                                <title ref="#ProsePoesie"> PP </title>
-                                <citedRange corresp="#ProsePoesie"> Erminia, p. 456 </citedRange>
-                                <date notBefore="1818" notAfter="1819"> 1818-1819 </date>
-                            </bibl>
-                        </cit>
-                        <cit xml:id="trentamaggio1817">
-                            <bibl>
-                                <title ref="#Epistolario"> Ep (30 maggio 1817)</title>
+                                <title ref="#Epistolario"> Ep (30 maggio 1817)</title>, 
                                 <citedRange corresp="#Epistolario"> Lettera a Giordani, 30 maggio 1817, p.
-                                    106 </citedRange>
-                                <date when="1817-05-30"> 30 maggio 1817 </date>
-                                <ref> </ref>
+                                    106 </citedRange>, 
+                                <date when="1817-05-30"> 30 maggio 1817</date>, 
+                                <ref>http://www.bibliotecaitaliana.it/testo/bibit000098</ref>.
                             </bibl>
+                            <quote>
+                                In questa tanto squisita prosa ho trovato un'opinione sopra la quale avrei qualcosa che dire Ella ricorda in generale ai giovani pittori che senza stringente necessità della storia (e anche allora con buon giudizio e garbo) non si dee mai figurare il brutto. Poichè, soggiugne, l'ufficio delle belle arti è pur di moltiplicare e perpetuare le imagini di quelle cose o di quelle azioni cui la natura o gli uomini producono più vaghe e desiderabili: e quale consiglio o qual diletto crescere il numero o la durata delle cose moleste di che già troppo abbonda la terra? A me parrebbe che l'ufficio delle belle arti sia d'imitare la natura nel verisimile. E come le massime astratte e generali che vagliono per la pittura denno anche valere per la poesia, così, secondo la sua sentenza, Omero Virgilio e gli altri grandi avrebbero errato infinite volte, e Dante sopra tutti che ha figurato il brutto così sovente. Perocchè le tempeste le morti e cento e mille calamità che sono altro se non cose moleste anzi dolorosissime? E queste così innumerevoli pitture hanno moltiplicato e perpetuato i sommi poeti. E la tragedia sarebbe condannabile quasi intieramente di natura sua. Certamente le arti hanno da dilettare, ma chi può negare che il piagnere il palpitare l'inorridire alla lettura di un poeta non sia dilettoso? anzi chi non sa che è dilettosissimo! Perchè il diletto nasce appunto dalla maraviglia di vedere così bene imitata la natura, che ci paia vivo e presente quello che è o nulla o morto o lontano. Ond'è che il bello il quale veduto nella natura, vale a dire nella realtà, non ci diletta più che tanto, veduto in poesia o in pittura, vale a dire in imagine, ci reca piacere infinito. E così il brutto imitato dall'arte, da questa imitazione piglia facoltà di dilettare. Se un uomo è di deformità incredibile, ritrar questa non sarebbe sano consiglio, benchè vera, perchè le arti debbono persuadere e far credere che il finto sia reale, e l'incredibile non si può far credere. Ma se la deformità è nel verisimile, a me pare che il vederla ritratta al naturale debba dilettare non poco. 
+                            </quote>
+                        </cit>
+                        <cit xml:id="Erminia"> <!--AC: Inseriti ref e citazione-->
+                            <bibl>
+                                <title ref="#ProsePoesie"> PP </title>, 
+                                <citedRange corresp="#ProsePoesie"> Erminia, p. 456 </citedRange>, 
+                                <date notBefore="1818" notAfter="1819"> 1818-1819 </date>, 
+                                <ref>http://www.bibliotecaitaliana.it/testo/bibit001379</ref>.
+                            </bibl>
+                            <quote>Canto degli agricoltori per le ville.</quote>
                         </cit>
                     </div>
-
                 </back>
             </text>
             <text type="4">
                 <body>
-                    <pb n="4" xml:id="p_4"/> 
-                    <p>ultimi lavori
-                        d’arte. Queste sono di quegli <add hand="#penna_F">scrittori</add> che nella
-                        corruzione si conservano illesi, non possono essere stimati da molti ec. Ma adesso
-                        l’arte è venuta in un incredibile accrescimento, tutto è arte e poi arte, non <del
-                            hand="#penna_F">ce</del> c’è più quasi niente di spontaneo, la stessa
-                        spontaneità si cerca a tutto potere ma con uno studio infinito senza il quale non si
-                        può avere, e senza il quale a gran pezza l’aveano (spezialmente nella lingua)
-                            <persName ref="#Dante">Dante</persName> il <persName ref="#Petrarca">Petrarca
-                        </persName> l’<persName ref="#Ariosto">Ariosto</persName> ec. e tutti i bravi
-                        trecentisti e cinquecentisti. Questo avviene perché ora si viene da un tempo
-                        corrotto (oltrechè si sta pure tra’ corrotti) e bisogna porre il più grande studio
-                        per evitare la corruzione, <choice>
-                            <abbr>principalm.</abbr>
-                            <expan>principalmente</expan>
-                        </choice> quella del tempo la quale prima che abbiamo pensato a guardarcene s’è
-                        impadronita di noi, e poi quella dei tempi passati, perchè adesso conosciamo tutti i
-                        vizi delle arti e ce ne vogliamo guardare, e non <del hand="#penna_F">fa</del> siamo
-                        più semplici come erano i greci e i latini e i 300ti e i 500ti, perchè siamo passati
-                        pel tempo di corruzione e siamo divenuti astuti nell’arte, e schiviamo i vizi con
-                        questa astuzia e coll’arte non colla natura come faceano gli antichi i quali senza
-                        sapere più che tanto pure perchè l’arte era in sul principio e non ancora corrotta
-                            <del hand="#penna_F">li s&lt;chivavano&gt;</del> non gli schivavano ma non ci
-                        cadevano. Erano come fanciulli che non conoscono i vizi, noi siamo come i vecchi che
-                        li conosciamo <del hand="#penna_F">p&lt;el&gt;</del>
-                        <add hand="#penna_F">ma pel</add> senno e l’esperienza gli schiviamo. E però abbiamo
-                        moltissimo più senno e arte che gli antichi, i quali per questo cadevano in infiniti
-                        difetti (non conoscendoli) in cui adesso non cadrebbe uno scolaro. Vizi d’<persName
-                            ref="#Omero">Omero</persName> concetti del <persName ref="#Petrarca"
-                            >Petrarca</persName>, grossezze di <persName ref="#Dante">Dante</persName>,
-                        seicenterie dell'<persName ref="#Ariosto">Ariosto</persName> del <persName
-                            ref="#Tasso">Tasso</persName> del <persName ref="#Caro">Caro</persName>
-                        <choice>
-                            <abbr>traduz.</abbr>
-                            <expan>traduzione</expan>
-                        </choice> dell'Eneide ec. E però adesso le nostre opere grandi (pochissime perchè
-                        ancora siamo nella corruzione onde pochissimi emergono) saranno tutte senza difetti,
-                        perfettissime, ma in somma non più originali, non avremo più <persName ref="#Omero"
-                            >Omero</persName>
-                        <persName ref="#Dante">Dante</persName> l’<persName ref="#Ariosto"
-                            >Ariosto</persName>. Esempio manifesto del <persName ref="#Parini"
-                            >Parini</persName>
-                        <persName ref="#Alfieri">Alfieri</persName>
-                        <persName ref="#Monti">Monti</persName> ec. Onde apparisce quel che io di sopra ho
-                        detto che dopo che le arti di <del hand="#penna_F">giovani</del>
-                        <add hand="#penna_F">fanciulle</add> e incorrotte si son fatte <del hand="#penna_F"
+                    <div>
+                        <pb n="4" xml:id="p_4"/> 
+                        <p><lb n="[4]"/> <!--AC: Marcato Augustus e inserito Augusto nella <listBibl>-->
+                            last works of art appeared <date from="1750" to="1799">in the <add hand="#penna_F">second</add> half 
+                                of the 18th</date> and <date>beginning of the 19th centuries</date>. These are by those 
+                                <add hand="#penna_F">writers</add> who remain untouched by corruption, cannot be admired by many, etc. 
+                                But art today has seen
+                            incredible growth, everything is art and more art, hardly anything is spontaneous, spontaneity 
+                            itself is sought out with great fervor but through endless
+                            study, and cannot be achieved without it, yet without it <persName ref="#Dante">Dante</persName>, 
+                            <persName ref="#Petrarca">Petrarch</persName>, <persName ref="#Ariosto">Ariosto</persName> etc., 
+                            and all the good fourteenth- and sixteenth- century writers had spontaneity in abundance 
+                            (particularly as far as language is concerned).
+                            This is happening because we live today in a time of corruption (as well as among corrupt people) 
+                            and we have to study as hard as possible to avoid corruption,
+                            <choice>
+                                <abbr>particul.</abbr>
+                                <expan>particularly</expan>
+                            </choice> that of our own time, which takes hold of us before we can avoid it, and
+                            also that of the past, because we now know all the vices of art and want to
+                            protect ourselves against them. We no longer have the simplicity of the Greeks
+                            and Romans or the writers of the <date when="1300">14th </date> and <date when="1500">16th centuries</date>, 
+                            because we have
+                            passed through the time of corruption and have become cunning in our art.
+                            We avoid those vices with our cunning and our art, not with nature’s help, as
+                            the ancients did, who did not know much about them, but who, because art
+                            was in its infancy and still not corrupted, neither avoided nor fell into such
+                            vices. They were like children who know no vices, we are like old people who
+                            know them <del>th&lt;rough&gt;</del> but avoid them through judgment and experience. And we have a
+                            great deal more judgment and art than the ancients, who made endless mistakes
+                            (without recognizing them) that would not be made today by a schoolboy. <persName ref="#Omero">Homer</persName>'s 
+                            flaws, <persName ref="#Petrarca">Petrarch</persName>’s conceits, <persName ref="#Dante">Dante</persName>’s failures 
+                            of taste, the <date when="1600">seventeenth century
+                            </date> flourishes of <persName ref="#Ariosto">Ariosto</persName>, of <persName ref="#Tasso">Tasso</persName>, 
+                            of <persName ref="#Caro">Caro</persName>'s
+                            <choice>
+                                <abbr>transl.</abbr>
+                                <expan>translation</expan>
+                            </choice> of the <!--AC: Marcata l'Eneide e aggiunta alla <listBibl>--><ref target="#Eneide"><bibl><title ref="#Eneide">Aeneid</title></bibl></ref>, etc. And so our great works of today (very few because we are still in the
+                            midst of corruption from which very few writers stand out) will all be flawless, perfect, but in the end no longer original: we won’t have any more
+                            <persName ref="#Omero">Homer</persName>s, <persName ref="#Dante">Dante</persName>s, <persName ref="#Ariosto">Ariosto</persName>s. Obvious example of <persName ref="#Parini">Parini</persName>,
+                            <persName ref="#Alfieri">Alfieri</persName>,
+                            <persName ref="#Monti">Monti</persName>, etc.
+                            Therefore, what I said above is quite clear, that the arts having changed from being childish and uncorrupted into being <del hand="#penna_F"
                             >mature</del>
-                        <add hand="#penna_F"><del hand="#penna_F">decr&lt;epite&gt; marcie</del> mature
-                            e</add> corrotte, (come gli uomini di mezza età viziosi) invecchiando e
-                        ravvedendosi, non potranno più ripigliare il vigore della fanciullezza e giovinezza.
-                        Le arti presso i Greci e i latini <del hand="#penna_F">cadute</del>
-                        <add hand="#penna_F">corrotte</add> una volta non risorsero più presso noi van
-                        risorgendo: primo esempio finora al mondo, dal quale solo si possono cavare le prove
-                        pratiche della mia sentenza. Se non che i poeti e altri scrittori grandi d’oggi
-                        stanno in certo modo agli antichi del 300 e 500 com <del>g&lt;reci&gt;</del> e i
-                        greci dei secoli d’Augusto <add hand="#penna_F">e degli imperatori</add>, p. e.
-                            <persName ref="#Dionigi_di_Alicarnasso"> Dionigi Alicarnasseo</persName>,
-                            <persName ref="#Dione">Dione</persName>, <persName ref="#Arriano"
-                            >Arriano</persName> ad <persName ref="#Erodoto">Erodoto</persName>
-                        <persName ref="Tucidide">Tucidide</persName>
-                        <persName ref="#Senofonte">Senofonte</persName>: ma questi eran passati <add
-                            hand="#penna_F">per un’età</add> e si trovavano ancora in un’età più tosto di
-                        debolezza che di corruzione. </p>
+                        <add hand="#penna_F"><del hand="#penna_F">decr&lt;epit&gt; rotten</del> mature
+                            and</add> corrupt (like middle-aged men full
+                            of vices), when they grow old and mend their ways, they can no longer regain the vigor of their childhood and their youth.
+                            The arts among the Greeks and Romans, once <del hand="#penna_F">fallen</del> <add hand="#penna_F">corrupted</add>, never recovered, 
+                            now they are rising again among
+                            us: the first example so far in the world, from which alone practical proof can
+                            be obtained of my opinion. Except that in a certain way if the great poets and
+                            other writers of today are put beside those of the <date when="1300">14th</date> and <date when="1500">16th centuries</date>, they
+                            resemble <del>G&lt;reeks&gt;</del> Greek writers in the centuries of <persName ref="#Augusto">Augustus</persName> <add hand="#penna_F">and the emperors</add>, e.g., <persName ref="#Dionigi_di_Alicarnasso">Dionysius of Halicarnassus</persName>,
+                            <persName ref="#Dione">Cassius Dio</persName>, and <persName ref="#Arriano">Arrian</persName>, compared to <persName ref="#Erodoto">Herodotus</persName>,
+                            <persName ref="Tucidide">Thucydides</persName> and
+                            <persName ref="#Senofonte">Xenophon</persName>: But they had passed <add hand="#penna_F">through a period</add> and still were in a period of weakness rather than corruption.
+                        </p>
+                    </div>             
                 </body>
             </text>
             <text type="5">
